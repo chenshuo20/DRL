@@ -1,0 +1,31 @@
+[2023-04-09 20:32:39,036][__main__][INFO] - Training for 50000 timesteps with DoubleQNetwork and NormalReplayBuffer
+[2023-04-09 20:32:40,035][py.warnings][WARNING] - /home/chenshuo/cs/DRL/hw2/agent.py:54: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  a = torch.tensor(a, dtype=torch.int64).reshape(-1, 1).to(self.device)
+
+[2023-04-09 20:32:45,513][core][INFO] - Step: 2000, Eval mean: 234.8, Eval std: 44.81919231757752
+[2023-04-09 20:32:51,421][core][INFO] - Step: 4000, Eval mean: 119.7, Eval std: 4.920365840057018
+[2023-04-09 20:32:57,516][core][INFO] - Step: 6000, Eval mean: 123.0, Eval std: 7.0
+[2023-04-09 20:33:04,364][core][INFO] - Step: 8000, Eval mean: 101.4, Eval std: 2.8705400188814645
+[2023-04-09 20:33:11,059][core][INFO] - Step: 10000, Eval mean: 116.3, Eval std: 4.712748667179271
+[2023-04-09 20:33:17,807][core][INFO] - Step: 12000, Eval mean: 144.1, Eval std: 3.5341194094144583
+[2023-04-09 20:33:25,603][core][INFO] - Step: 14000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:33:33,099][core][INFO] - Step: 16000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:33:41,443][core][INFO] - Step: 18000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:33:49,713][core][INFO] - Step: 20000, Eval mean: 414.4, Eval std: 27.295420861382592
+[2023-04-09 20:33:58,209][core][INFO] - Step: 22000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:34:06,872][core][INFO] - Step: 24000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:34:15,411][core][INFO] - Step: 26000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:34:23,971][core][INFO] - Step: 28000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:34:32,677][core][INFO] - Step: 30000, Eval mean: 467.8, Eval std: 96.6
+[2023-04-09 20:34:41,352][core][INFO] - Step: 32000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:34:50,253][core][INFO] - Step: 34000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:34:59,149][core][INFO] - Step: 36000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:35:08,052][core][INFO] - Step: 38000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:35:15,980][core][INFO] - Step: 40000, Eval mean: 111.2, Eval std: 2.5612496949731396
+[2023-04-09 20:35:24,638][core][INFO] - Step: 42000, Eval mean: 380.9, Eval std: 61.48731576512346
+[2023-04-09 20:35:33,762][core][INFO] - Step: 44000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:35:42,885][core][INFO] - Step: 46000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:35:52,251][core][INFO] - Step: 48000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:36:01,717][core][INFO] - Step: 50000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:36:25,835][core][INFO] - Final Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 20:36:33,938][__main__][INFO] - Finish training with eval mean: 500.0

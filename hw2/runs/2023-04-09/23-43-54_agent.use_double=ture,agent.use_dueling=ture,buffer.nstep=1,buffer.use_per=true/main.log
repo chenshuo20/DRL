@@ -1,0 +1,34 @@
+[2023-04-09 23:43:56,316][__main__][INFO] - Training for 50000 timesteps with DoubleDuelingQNetwork and PrioritizedReplayBuffer
+[2023-04-09 23:43:57,309][py.warnings][WARNING] - /home/chenshuo/cs/DRL/hw2/agent.py:54: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  a = torch.tensor(a, dtype=torch.int64).reshape(-1, 1).to(self.device)
+
+[2023-04-09 23:44:10,769][core][INFO] - Step: 2000, Eval mean: 259.9, Eval std: 87.2209263881094
+[2023-04-09 23:44:26,139][core][INFO] - Step: 4000, Eval mean: 326.8, Eval std: 77.75448540116513
+[2023-04-09 23:44:41,494][core][INFO] - Step: 6000, Eval mean: 265.3, Eval std: 62.944499362533655
+[2023-04-09 23:44:57,615][core][INFO] - Step: 8000, Eval mean: 372.1, Eval std: 27.343920713752812
+[2023-04-09 23:45:14,250][core][INFO] - Step: 10000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:45:30,853][core][INFO] - Step: 12000, Eval mean: 441.2, Eval std: 62.95363373150116
+[2023-04-09 23:45:46,088][core][INFO] - Step: 14000, Eval mean: 93.5, Eval std: 3.138470965295043
+[2023-04-09 23:46:02,876][core][INFO] - Step: 16000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:46:19,825][core][INFO] - Step: 18000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:46:36,885][core][INFO] - Step: 20000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:46:53,807][core][INFO] - Step: 22000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:47:10,132][core][INFO] - Step: 24000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:47:27,048][core][INFO] - Step: 26000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:47:44,144][core][INFO] - Step: 28000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:48:01,410][core][INFO] - Step: 30000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:48:18,693][core][INFO] - Step: 32000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:48:36,038][core][INFO] - Step: 34000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:48:53,386][core][INFO] - Step: 36000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:49:10,677][core][INFO] - Step: 38000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:49:28,308][core][INFO] - Step: 40000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:49:45,800][core][INFO] - Step: 42000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:50:03,366][core][INFO] - Step: 44000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:50:20,174][core][INFO] - Step: 46000, Eval mean: 232.4, Eval std: 3.693237062523877
+[2023-04-09 23:50:36,331][core][INFO] - Step: 48000, Eval mean: 114.1, Eval std: 2.913760456866693
+[2023-04-09 23:50:52,618][core][INFO] - Step: 50000, Eval mean: 102.4, Eval std: 3.1999999999999997
+[2023-04-09 23:51:08,787][core][INFO] - Final Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 23:51:09,740][py.warnings][WARNING] - /home/chenshuo/anaconda3/envs/drl_hw2/lib/python3.10/site-packages/moviepy/video/io/ffmpeg_reader.py:123: UserWarning: Warning: in file final_videos/eval-episode-6.mp4, 720000 bytes wanted but 0 bytes read,at frame 106/107, at time 2.12/2.12 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+[2023-04-09 23:51:13,941][__main__][INFO] - Finish training with eval mean: 500.0

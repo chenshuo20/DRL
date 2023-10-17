@@ -1,0 +1,15 @@
+name: drl_hw2
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.0.0
+  - pytorch-cuda=11.7 # Comment this line if you are a mac user or want a cpu-only installation
+  - pip=23.0.1
+  - pip:
+    - gymnasium[classic-control]==0.27.1
+    - hydra-core==1.3.2
+    - matplotlib==3.7.1
+    - moviepy==1.0.3

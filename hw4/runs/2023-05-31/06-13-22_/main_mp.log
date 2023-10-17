@@ -1,0 +1,862 @@
+2023-05-31 06:13:31: [INFO]: Training seed 3407 for 3000000 timesteps with PPOAgent and PPOReplayBuffer
+2023-05-31 06:13:31: [INFO]: Training seed 0 for 3000000 timesteps with PPOAgent and PPOReplayBuffer
+2023-05-31 06:13:32: [INFO]: Training seed 1 for 3000000 timesteps with PPOAgent and PPOReplayBuffer
+2023-05-31 06:13:32: [INFO]: Training seed 2 for 3000000 timesteps with PPOAgent and PPOReplayBuffer
+2023-05-31 06:13:32: [INFO]: Training seed 42 for 3000000 timesteps with PPOAgent and PPOReplayBuffer
+2023-05-31 06:13:58: [WARNING]: /home/chenshuo/cs/DRL/hw4/buffer.py:151: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(next_values).to(self.device)
+
+2023-05-31 06:13:59: [WARNING]: /home/chenshuo/cs/DRL/hw4/buffer.py:151: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(next_values).to(self.device)
+
+2023-05-31 06:14:00: [WARNING]: /home/chenshuo/cs/DRL/hw4/buffer.py:151: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(next_values).to(self.device)
+
+2023-05-31 06:14:00: [WARNING]: /home/chenshuo/cs/DRL/hw4/buffer.py:151: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(next_values).to(self.device)
+
+2023-05-31 06:14:03: [WARNING]: /home/chenshuo/cs/DRL/hw4/buffer.py:151: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return torch.tensor(next_values).to(self.device)
+
+2023-05-31 06:14:12: [INFO]: Seed: 3407, Step: 20000, Eval mean: -95.70, Eval std: 62.11
+2023-05-31 06:14:12: [INFO]: Seed: 3407, Save best model at eval mean -95.6961 and step 20000
+2023-05-31 06:14:13: [INFO]: Seed: 1, Step: 20000, Eval mean: -155.81, Eval std: 91.42
+2023-05-31 06:14:13: [INFO]: Seed: 1, Save best model at eval mean -155.8140 and step 20000
+2023-05-31 06:14:13: [INFO]: Seed: 0, Step: 20000, Eval mean: -118.14, Eval std: 56.92
+2023-05-31 06:14:13: [INFO]: Seed: 0, Save best model at eval mean -118.1366 and step 20000
+2023-05-31 06:14:13: [INFO]: Seed: 2, Step: 20000, Eval mean: -191.37, Eval std: 89.98
+2023-05-31 06:14:13: [INFO]: Seed: 2, Save best model at eval mean -191.3723 and step 20000
+2023-05-31 06:14:15: [INFO]: Seed: 42, Step: 20000, Eval mean: -122.58, Eval std: 81.89
+2023-05-31 06:14:15: [INFO]: Seed: 42, Save best model at eval mean -122.5753 and step 20000
+2023-05-31 06:14:53: [INFO]: Seed: 42, Step: 40000, Eval mean: -95.34, Eval std: 34.04
+2023-05-31 06:14:53: [INFO]: Seed: 42, Save best model at eval mean -95.3366 and step 40000
+2023-05-31 06:14:54: [INFO]: Seed: 2, Step: 40000, Eval mean: -183.12, Eval std: 71.91
+2023-05-31 06:14:54: [INFO]: Seed: 2, Save best model at eval mean -183.1232 and step 40000
+2023-05-31 06:14:55: [INFO]: Seed: 0, Step: 40000, Eval mean: -130.66, Eval std: 67.23
+2023-05-31 06:14:56: [INFO]: Seed: 3407, Step: 40000, Eval mean: -137.10, Eval std: 76.66
+2023-05-31 06:14:56: [INFO]: Seed: 1, Step: 40000, Eval mean: -99.81, Eval std: 32.10
+2023-05-31 06:14:56: [INFO]: Seed: 1, Save best model at eval mean -99.8119 and step 40000
+2023-05-31 06:15:36: [INFO]: Seed: 3407, Step: 60000, Eval mean: -121.81, Eval std: 47.28
+2023-05-31 06:15:37: [INFO]: Seed: 42, Step: 60000, Eval mean: -121.70, Eval std: 44.21
+2023-05-31 06:15:40: [INFO]: Seed: 0, Step: 60000, Eval mean: -114.05, Eval std: 108.61
+2023-05-31 06:15:40: [INFO]: Seed: 0, Save best model at eval mean -114.0484 and step 60000
+2023-05-31 06:15:41: [INFO]: Seed: 2, Step: 60000, Eval mean: -211.12, Eval std: 88.34
+2023-05-31 06:15:41: [INFO]: Seed: 1, Step: 60000, Eval mean: -137.69, Eval std: 90.27
+2023-05-31 06:16:24: [INFO]: Seed: 3407, Step: 80000, Eval mean: -69.98, Eval std: 31.84
+2023-05-31 06:16:24: [INFO]: Seed: 3407, Save best model at eval mean -69.9761 and step 80000
+2023-05-31 06:16:25: [INFO]: Seed: 0, Step: 80000, Eval mean: -53.39, Eval std: 46.04
+2023-05-31 06:16:25: [INFO]: Seed: 0, Save best model at eval mean -53.3915 and step 80000
+2023-05-31 06:16:25: [INFO]: Seed: 42, Step: 80000, Eval mean: -66.49, Eval std: 35.80
+2023-05-31 06:16:25: [INFO]: Seed: 42, Save best model at eval mean -66.4881 and step 80000
+2023-05-31 06:16:26: [INFO]: Seed: 1, Step: 80000, Eval mean: -97.94, Eval std: 47.25
+2023-05-31 06:16:26: [INFO]: Seed: 1, Save best model at eval mean -97.9365 and step 80000
+2023-05-31 06:16:28: [INFO]: Seed: 2, Step: 80000, Eval mean: -92.71, Eval std: 54.30
+2023-05-31 06:16:28: [INFO]: Seed: 2, Save best model at eval mean -92.7066 and step 80000
+2023-05-31 06:17:18: [INFO]: Seed: 1, Step: 100000, Eval mean: -18.25, Eval std: 97.01
+2023-05-31 06:17:18: [INFO]: Seed: 1, Save best model at eval mean -18.2535 and step 100000
+2023-05-31 06:17:18: [INFO]: Seed: 42, Step: 100000, Eval mean: -20.81, Eval std: 23.22
+2023-05-31 06:17:18: [INFO]: Seed: 42, Save best model at eval mean -20.8117 and step 100000
+2023-05-31 06:17:19: [INFO]: Seed: 3407, Step: 100000, Eval mean: -30.03, Eval std: 28.45
+2023-05-31 06:17:19: [INFO]: Seed: 3407, Save best model at eval mean -30.0255 and step 100000
+2023-05-31 06:17:23: [INFO]: Seed: 0, Step: 100000, Eval mean: 11.47, Eval std: 86.46
+2023-05-31 06:17:23: [INFO]: Seed: 0, Save best model at eval mean 11.4718 and step 100000
+2023-05-31 06:17:23: [INFO]: Seed: 2, Step: 100000, Eval mean: -124.75, Eval std: 33.39
+2023-05-31 06:18:08: [INFO]: Seed: 3407, Step: 120000, Eval mean: -21.14, Eval std: 15.12
+2023-05-31 06:18:08: [INFO]: Seed: 3407, Save best model at eval mean -21.1401 and step 120000
+2023-05-31 06:18:10: [INFO]: Seed: 1, Step: 120000, Eval mean: -95.07, Eval std: 65.23
+2023-05-31 06:18:11: [INFO]: Seed: 42, Step: 120000, Eval mean: -24.58, Eval std: 53.49
+2023-05-31 06:18:12: [INFO]: Seed: 2, Step: 120000, Eval mean: -130.37, Eval std: 46.79
+2023-05-31 06:18:20: [INFO]: Seed: 0, Step: 120000, Eval mean: 1.85, Eval std: 77.97
+2023-05-31 06:19:08: [INFO]: Seed: 1, Step: 140000, Eval mean: -85.39, Eval std: 76.52
+2023-05-31 06:19:10: [INFO]: Seed: 42, Step: 140000, Eval mean: 6.38, Eval std: 72.96
+2023-05-31 06:19:10: [INFO]: Seed: 42, Save best model at eval mean 6.3758 and step 140000
+2023-05-31 06:19:16: [INFO]: Seed: 3407, Step: 140000, Eval mean: -9.39, Eval std: 21.93
+2023-05-31 06:19:16: [INFO]: Seed: 3407, Save best model at eval mean -9.3915 and step 140000
+2023-05-31 06:19:19: [INFO]: Seed: 2, Step: 140000, Eval mean: -147.64, Eval std: 51.32
+2023-05-31 06:19:25: [INFO]: Seed: 0, Step: 140000, Eval mean: 29.48, Eval std: 110.23
+2023-05-31 06:19:25: [INFO]: Seed: 0, Save best model at eval mean 29.4839 and step 140000
+2023-05-31 06:20:19: [INFO]: Seed: 1, Step: 160000, Eval mean: -113.02, Eval std: 62.15
+2023-05-31 06:20:25: [INFO]: Seed: 42, Step: 160000, Eval mean: -67.20, Eval std: 53.13
+2023-05-31 06:20:29: [INFO]: Seed: 2, Step: 160000, Eval mean: -117.20, Eval std: 36.10
+2023-05-31 06:20:33: [INFO]: Seed: 3407, Step: 160000, Eval mean: -10.79, Eval std: 40.31
+2023-05-31 06:20:34: [INFO]: Seed: 0, Step: 160000, Eval mean: 46.79, Eval std: 147.65
+2023-05-31 06:20:34: [INFO]: Seed: 0, Save best model at eval mean 46.7920 and step 160000
+2023-05-31 06:21:36: [INFO]: Seed: 1, Step: 180000, Eval mean: -126.91, Eval std: 65.06
+2023-05-31 06:21:42: [INFO]: Seed: 42, Step: 180000, Eval mean: 17.30, Eval std: 71.03
+2023-05-31 06:21:42: [INFO]: Seed: 42, Save best model at eval mean 17.3003 and step 180000
+2023-05-31 06:21:44: [INFO]: Seed: 2, Step: 180000, Eval mean: -119.92, Eval std: 38.80
+2023-05-31 06:21:45: [INFO]: Seed: 3407, Step: 180000, Eval mean: 43.68, Eval std: 59.38
+2023-05-31 06:21:45: [INFO]: Seed: 3407, Save best model at eval mean 43.6844 and step 180000
+2023-05-31 06:21:45: [INFO]: Seed: 0, Step: 180000, Eval mean: -47.92, Eval std: 40.77
+2023-05-31 06:22:58: [INFO]: Seed: 2, Step: 200000, Eval mean: -128.09, Eval std: 23.24
+2023-05-31 06:23:01: [INFO]: Seed: 3407, Step: 200000, Eval mean: -4.64, Eval std: 122.31
+2023-05-31 06:23:02: [INFO]: Seed: 1, Step: 200000, Eval mean: -126.21, Eval std: 46.32
+2023-05-31 06:23:02: [INFO]: Seed: 0, Step: 200000, Eval mean: -30.60, Eval std: 45.53
+2023-05-31 06:23:02: [INFO]: Seed: 42, Step: 200000, Eval mean: 2.94, Eval std: 76.28
+2023-05-31 06:24:12: [INFO]: Seed: 1, Step: 220000, Eval mean: -139.92, Eval std: 49.33
+2023-05-31 06:24:15: [INFO]: Seed: 0, Step: 220000, Eval mean: 50.22, Eval std: 114.40
+2023-05-31 06:24:15: [INFO]: Seed: 0, Save best model at eval mean 50.2185 and step 220000
+2023-05-31 06:24:16: [INFO]: Seed: 42, Step: 220000, Eval mean: 99.11, Eval std: 83.60
+2023-05-31 06:24:16: [INFO]: Seed: 42, Save best model at eval mean 99.1097 and step 220000
+2023-05-31 06:24:19: [INFO]: Seed: 2, Step: 220000, Eval mean: -52.17, Eval std: 134.33
+2023-05-31 06:24:19: [INFO]: Seed: 2, Save best model at eval mean -52.1722 and step 220000
+2023-05-31 06:24:20: [INFO]: Seed: 3407, Step: 220000, Eval mean: 67.40, Eval std: 99.73
+2023-05-31 06:24:20: [INFO]: Seed: 3407, Save best model at eval mean 67.3967 and step 220000
+2023-05-31 06:25:27: [INFO]: Seed: 0, Step: 240000, Eval mean: 20.27, Eval std: 87.20
+2023-05-31 06:25:31: [INFO]: Seed: 1, Step: 240000, Eval mean: -140.86, Eval std: 31.14
+2023-05-31 06:25:32: [INFO]: Seed: 42, Step: 240000, Eval mean: 28.15, Eval std: 109.94
+2023-05-31 06:25:33: [INFO]: Seed: 2, Step: 240000, Eval mean: -84.90, Eval std: 101.53
+2023-05-31 06:25:35: [INFO]: Seed: 3407, Step: 240000, Eval mean: 199.64, Eval std: 95.14
+2023-05-31 06:25:35: [INFO]: Seed: 3407, Save best model at eval mean 199.6376 and step 240000
+2023-05-31 06:26:43: [INFO]: Seed: 2, Step: 260000, Eval mean: -67.80, Eval std: 88.39
+2023-05-31 06:26:45: [INFO]: Seed: 42, Step: 260000, Eval mean: 60.52, Eval std: 116.28
+2023-05-31 06:26:45: [INFO]: Seed: 1, Step: 260000, Eval mean: -149.85, Eval std: 35.82
+2023-05-31 06:26:49: [INFO]: Seed: 3407, Step: 260000, Eval mean: 179.12, Eval std: 101.40
+2023-05-31 06:26:50: [INFO]: Seed: 0, Step: 260000, Eval mean: 82.42, Eval std: 123.02
+2023-05-31 06:26:50: [INFO]: Seed: 0, Save best model at eval mean 82.4195 and step 260000
+2023-05-31 06:28:07: [INFO]: Seed: 2, Step: 280000, Eval mean: -72.05, Eval std: 74.97
+2023-05-31 06:28:10: [INFO]: Seed: 0, Step: 280000, Eval mean: 45.42, Eval std: 123.90
+2023-05-31 06:28:10: [INFO]: Seed: 42, Step: 280000, Eval mean: 102.94, Eval std: 131.87
+2023-05-31 06:28:10: [INFO]: Seed: 42, Save best model at eval mean 102.9431 and step 280000
+2023-05-31 06:28:10: [INFO]: Seed: 1, Step: 280000, Eval mean: -133.74, Eval std: 44.50
+2023-05-31 06:28:21: [INFO]: Seed: 3407, Step: 280000, Eval mean: 193.59, Eval std: 97.96
+2023-05-31 06:29:29: [INFO]: Seed: 2, Step: 300000, Eval mean: -119.57, Eval std: 17.96
+2023-05-31 06:29:32: [INFO]: Seed: 0, Step: 300000, Eval mean: -20.27, Eval std: 85.52
+2023-05-31 06:29:33: [INFO]: Seed: 1, Step: 300000, Eval mean: -115.62, Eval std: 38.71
+2023-05-31 06:29:38: [INFO]: Seed: 42, Step: 300000, Eval mean: 86.33, Eval std: 137.16
+2023-05-31 06:29:39: [INFO]: Seed: 3407, Step: 300000, Eval mean: 169.50, Eval std: 117.56
+2023-05-31 06:30:45: [INFO]: Seed: 1, Step: 320000, Eval mean: -125.18, Eval std: 39.96
+2023-05-31 06:30:49: [INFO]: Seed: 2, Step: 320000, Eval mean: -49.68, Eval std: 109.94
+2023-05-31 06:30:49: [INFO]: Seed: 2, Save best model at eval mean -49.6819 and step 320000
+2023-05-31 06:30:50: [INFO]: Seed: 42, Step: 320000, Eval mean: 136.95, Eval std: 149.11
+2023-05-31 06:30:50: [INFO]: Seed: 42, Save best model at eval mean 136.9492 and step 320000
+2023-05-31 06:30:54: [INFO]: Seed: 0, Step: 320000, Eval mean: 21.34, Eval std: 98.12
+2023-05-31 06:31:01: [INFO]: Seed: 3407, Step: 320000, Eval mean: 162.78, Eval std: 109.10
+2023-05-31 06:32:08: [INFO]: Seed: 1, Step: 340000, Eval mean: -105.05, Eval std: 56.24
+2023-05-31 06:32:11: [INFO]: Seed: 42, Step: 340000, Eval mean: 86.38, Eval std: 125.86
+2023-05-31 06:32:12: [INFO]: Seed: 0, Step: 340000, Eval mean: -16.72, Eval std: 120.41
+2023-05-31 06:32:12: [INFO]: Seed: 2, Step: 340000, Eval mean: -111.17, Eval std: 35.64
+2023-05-31 06:32:14: [INFO]: Seed: 3407, Step: 340000, Eval mean: 204.44, Eval std: 74.80
+2023-05-31 06:32:14: [INFO]: Seed: 3407, Save best model at eval mean 204.4385 and step 340000
+2023-05-31 06:33:22: [INFO]: Seed: 2, Step: 360000, Eval mean: -86.93, Eval std: 23.84
+2023-05-31 06:33:22: [INFO]: Seed: 42, Step: 360000, Eval mean: 65.62, Eval std: 136.14
+2023-05-31 06:33:26: [INFO]: Seed: 1, Step: 360000, Eval mean: -128.15, Eval std: 38.64
+2023-05-31 06:33:29: [INFO]: Seed: 3407, Step: 360000, Eval mean: 226.14, Eval std: 74.94
+2023-05-31 06:33:29: [INFO]: Seed: 3407, Save best model at eval mean 226.1424 and step 360000
+2023-05-31 06:33:31: [INFO]: Seed: 0, Step: 360000, Eval mean: 13.51, Eval std: 110.70
+2023-05-31 06:34:46: [INFO]: Seed: 1, Step: 380000, Eval mean: -106.65, Eval std: 42.42
+2023-05-31 06:34:47: [INFO]: Seed: 42, Step: 380000, Eval mean: 182.38, Eval std: 92.49
+2023-05-31 06:34:47: [INFO]: Seed: 42, Save best model at eval mean 182.3808 and step 380000
+2023-05-31 06:34:47: [INFO]: Seed: 2, Step: 380000, Eval mean: -48.32, Eval std: 112.16
+2023-05-31 06:34:47: [INFO]: Seed: 2, Save best model at eval mean -48.3199 and step 380000
+2023-05-31 06:34:51: [INFO]: Seed: 3407, Step: 380000, Eval mean: 243.84, Eval std: 24.61
+2023-05-31 06:34:51: [INFO]: Seed: 3407, Save best model at eval mean 243.8371 and step 380000
+2023-05-31 06:34:52: [INFO]: Seed: 0, Step: 380000, Eval mean: 65.84, Eval std: 111.65
+2023-05-31 06:36:02: [INFO]: Seed: 1, Step: 400000, Eval mean: -87.50, Eval std: 34.52
+2023-05-31 06:36:03: [INFO]: Seed: 2, Step: 400000, Eval mean: -37.40, Eval std: 107.93
+2023-05-31 06:36:03: [INFO]: Seed: 2, Save best model at eval mean -37.4020 and step 400000
+2023-05-31 06:36:06: [INFO]: Seed: 3407, Step: 400000, Eval mean: 204.46, Eval std: 102.79
+2023-05-31 06:36:08: [INFO]: Seed: 42, Step: 400000, Eval mean: 167.89, Eval std: 102.29
+2023-05-31 06:36:08: [INFO]: Seed: 0, Step: 400000, Eval mean: 118.56, Eval std: 137.92
+2023-05-31 06:36:08: [INFO]: Seed: 0, Save best model at eval mean 118.5616 and step 400000
+2023-05-31 06:37:16: [INFO]: Seed: 1, Step: 420000, Eval mean: -106.03, Eval std: 53.30
+2023-05-31 06:37:18: [INFO]: Seed: 0, Step: 420000, Eval mean: 31.21, Eval std: 109.33
+2023-05-31 06:37:20: [INFO]: Seed: 42, Step: 420000, Eval mean: 158.54, Eval std: 102.19
+2023-05-31 06:37:23: [INFO]: Seed: 2, Step: 420000, Eval mean: -44.14, Eval std: 98.47
+2023-05-31 06:37:28: [INFO]: Seed: 3407, Step: 420000, Eval mean: 205.61, Eval std: 53.36
+2023-05-31 06:38:37: [INFO]: Seed: 1, Step: 440000, Eval mean: -128.83, Eval std: 35.65
+2023-05-31 06:38:38: [INFO]: Seed: 2, Step: 440000, Eval mean: -62.58, Eval std: 83.79
+2023-05-31 06:38:41: [INFO]: Seed: 3407, Step: 440000, Eval mean: 253.38, Eval std: 19.90
+2023-05-31 06:38:41: [INFO]: Seed: 3407, Save best model at eval mean 253.3785 and step 440000
+2023-05-31 06:38:43: [INFO]: Seed: 42, Step: 440000, Eval mean: 141.53, Eval std: 89.53
+2023-05-31 06:38:45: [INFO]: Seed: 0, Step: 440000, Eval mean: 77.26, Eval std: 123.58
+2023-05-31 06:40:03: [INFO]: Seed: 1, Step: 460000, Eval mean: -138.43, Eval std: 70.68
+2023-05-31 06:40:04: [INFO]: Seed: 2, Step: 460000, Eval mean: -15.02, Eval std: 121.46
+2023-05-31 06:40:04: [INFO]: Seed: 2, Save best model at eval mean -15.0188 and step 460000
+2023-05-31 06:40:05: [INFO]: Seed: 42, Step: 460000, Eval mean: 176.75, Eval std: 90.48
+2023-05-31 06:40:07: [INFO]: Seed: 3407, Step: 460000, Eval mean: 223.04, Eval std: 30.26
+2023-05-31 06:40:08: [INFO]: Seed: 0, Step: 460000, Eval mean: 133.95, Eval std: 105.94
+2023-05-31 06:40:08: [INFO]: Seed: 0, Save best model at eval mean 133.9510 and step 460000
+2023-05-31 06:41:16: [INFO]: Seed: 1, Step: 480000, Eval mean: -134.49, Eval std: 62.09
+2023-05-31 06:41:20: [INFO]: Seed: 42, Step: 480000, Eval mean: 105.74, Eval std: 115.48
+2023-05-31 06:41:21: [INFO]: Seed: 2, Step: 480000, Eval mean: -102.88, Eval std: 42.75
+2023-05-31 06:41:23: [INFO]: Seed: 3407, Step: 480000, Eval mean: 247.15, Eval std: 26.46
+2023-05-31 06:41:25: [INFO]: Seed: 0, Step: 480000, Eval mean: 50.53, Eval std: 103.70
+2023-05-31 06:42:33: [INFO]: Seed: 1, Step: 500000, Eval mean: -107.36, Eval std: 41.58
+2023-05-31 06:42:36: [INFO]: Seed: 42, Step: 500000, Eval mean: 111.03, Eval std: 113.94
+2023-05-31 06:42:37: [INFO]: Seed: 2, Step: 500000, Eval mean: -44.88, Eval std: 116.47
+2023-05-31 06:42:38: [INFO]: Seed: 3407, Step: 500000, Eval mean: 204.92, Eval std: 73.43
+2023-05-31 06:42:42: [INFO]: Seed: 0, Step: 500000, Eval mean: 132.52, Eval std: 119.95
+2023-05-31 06:43:51: [INFO]: Seed: 1, Step: 520000, Eval mean: -61.38, Eval std: 72.77
+2023-05-31 06:43:54: [INFO]: Seed: 2, Step: 520000, Eval mean: -60.36, Eval std: 79.64
+2023-05-31 06:43:55: [INFO]: Seed: 42, Step: 520000, Eval mean: 84.27, Eval std: 116.16
+2023-05-31 06:43:55: [INFO]: Seed: 3407, Step: 520000, Eval mean: 224.76, Eval std: 31.53
+2023-05-31 06:44:00: [INFO]: Seed: 0, Step: 520000, Eval mean: 61.62, Eval std: 144.42
+2023-05-31 06:45:11: [INFO]: Seed: 3407, Step: 540000, Eval mean: 237.66, Eval std: 29.41
+2023-05-31 06:45:11: [INFO]: Seed: 42, Step: 540000, Eval mean: 167.33, Eval std: 75.57
+2023-05-31 06:45:13: [INFO]: Seed: 1, Step: 540000, Eval mean: -101.09, Eval std: 32.86
+2023-05-31 06:45:14: [INFO]: Seed: 2, Step: 540000, Eval mean: 19.81, Eval std: 120.68
+2023-05-31 06:45:14: [INFO]: Seed: 2, Save best model at eval mean 19.8140 and step 540000
+2023-05-31 06:45:15: [INFO]: Seed: 0, Step: 540000, Eval mean: 158.55, Eval std: 84.74
+2023-05-31 06:45:15: [INFO]: Seed: 0, Save best model at eval mean 158.5481 and step 540000
+2023-05-31 06:46:30: [INFO]: Seed: 42, Step: 560000, Eval mean: 99.82, Eval std: 109.18
+2023-05-31 06:46:31: [INFO]: Seed: 1, Step: 560000, Eval mean: -66.13, Eval std: 105.74
+2023-05-31 06:46:31: [INFO]: Seed: 3407, Step: 560000, Eval mean: 243.54, Eval std: 45.81
+2023-05-31 06:46:33: [INFO]: Seed: 2, Step: 560000, Eval mean: -23.87, Eval std: 86.63
+2023-05-31 06:46:36: [INFO]: Seed: 0, Step: 560000, Eval mean: 156.33, Eval std: 90.44
+2023-05-31 06:47:43: [INFO]: Seed: 1, Step: 580000, Eval mean: -104.32, Eval std: 38.47
+2023-05-31 06:47:44: [INFO]: Seed: 2, Step: 580000, Eval mean: -53.47, Eval std: 67.15
+2023-05-31 06:47:46: [INFO]: Seed: 42, Step: 580000, Eval mean: 149.10, Eval std: 107.71
+2023-05-31 06:47:48: [INFO]: Seed: 3407, Step: 580000, Eval mean: 221.87, Eval std: 33.93
+2023-05-31 06:47:51: [INFO]: Seed: 0, Step: 580000, Eval mean: 108.04, Eval std: 107.03
+2023-05-31 06:48:56: [INFO]: Seed: 3407, Step: 600000, Eval mean: 224.44, Eval std: 72.11
+2023-05-31 06:48:57: [INFO]: Seed: 1, Step: 600000, Eval mean: -97.90, Eval std: 30.70
+2023-05-31 06:49:01: [INFO]: Seed: 2, Step: 600000, Eval mean: -45.48, Eval std: 100.38
+2023-05-31 06:49:03: [INFO]: Seed: 42, Step: 600000, Eval mean: 127.29, Eval std: 128.65
+2023-05-31 06:49:06: [INFO]: Seed: 0, Step: 600000, Eval mean: 73.15, Eval std: 118.29
+2023-05-31 06:50:11: [INFO]: Seed: 1, Step: 620000, Eval mean: -86.97, Eval std: 33.46
+2023-05-31 06:50:13: [INFO]: Seed: 3407, Step: 620000, Eval mean: 261.49, Eval std: 20.60
+2023-05-31 06:50:13: [INFO]: Seed: 3407, Save best model at eval mean 261.4921 and step 620000
+2023-05-31 06:50:15: [INFO]: Seed: 42, Step: 620000, Eval mean: 188.66, Eval std: 39.98
+2023-05-31 06:50:15: [INFO]: Seed: 42, Save best model at eval mean 188.6618 and step 620000
+2023-05-31 06:50:16: [INFO]: Seed: 2, Step: 620000, Eval mean: 17.55, Eval std: 115.72
+2023-05-31 06:50:20: [INFO]: Seed: 0, Step: 620000, Eval mean: 120.21, Eval std: 122.39
+2023-05-31 06:51:32: [INFO]: Seed: 1, Step: 640000, Eval mean: -116.86, Eval std: 66.37
+2023-05-31 06:51:34: [INFO]: Seed: 2, Step: 640000, Eval mean: 19.65, Eval std: 157.50
+2023-05-31 06:51:36: [INFO]: Seed: 3407, Step: 640000, Eval mean: 233.41, Eval std: 36.29
+2023-05-31 06:51:40: [INFO]: Seed: 42, Step: 640000, Eval mean: 178.18, Eval std: 71.84
+2023-05-31 06:51:41: [INFO]: Seed: 0, Step: 640000, Eval mean: 21.12, Eval std: 138.14
+2023-05-31 06:52:49: [INFO]: Seed: 2, Step: 660000, Eval mean: 107.65, Eval std: 119.38
+2023-05-31 06:52:49: [INFO]: Seed: 2, Save best model at eval mean 107.6546 and step 660000
+2023-05-31 06:52:50: [INFO]: Seed: 1, Step: 660000, Eval mean: -57.65, Eval std: 80.98
+2023-05-31 06:52:50: [INFO]: Seed: 3407, Step: 660000, Eval mean: 247.20, Eval std: 23.97
+2023-05-31 06:52:52: [INFO]: Seed: 42, Step: 660000, Eval mean: 140.46, Eval std: 119.06
+2023-05-31 06:52:59: [INFO]: Seed: 0, Step: 660000, Eval mean: 99.73, Eval std: 104.25
+2023-05-31 06:54:05: [INFO]: Seed: 1, Step: 680000, Eval mean: -54.31, Eval std: 107.66
+2023-05-31 06:54:07: [INFO]: Seed: 42, Step: 680000, Eval mean: 122.74, Eval std: 106.43
+2023-05-31 06:54:08: [INFO]: Seed: 2, Step: 680000, Eval mean: -32.17, Eval std: 104.11
+2023-05-31 06:54:09: [INFO]: Seed: 3407, Step: 680000, Eval mean: 222.53, Eval std: 73.31
+2023-05-31 06:54:14: [INFO]: Seed: 0, Step: 680000, Eval mean: 108.02, Eval std: 128.47
+2023-05-31 06:55:11: [INFO]: Seed: 1, Step: 700000, Eval mean: -113.96, Eval std: 54.37
+2023-05-31 06:55:15: [INFO]: Seed: 3407, Step: 700000, Eval mean: 246.97, Eval std: 33.34
+2023-05-31 06:55:15: [INFO]: Seed: 42, Step: 700000, Eval mean: 150.42, Eval std: 106.37
+2023-05-31 06:55:17: [INFO]: Seed: 2, Step: 700000, Eval mean: 56.59, Eval std: 132.43
+2023-05-31 06:55:20: [INFO]: Seed: 0, Step: 700000, Eval mean: 141.83, Eval std: 107.10
+2023-05-31 06:56:15: [INFO]: Seed: 1, Step: 720000, Eval mean: -80.06, Eval std: 23.94
+2023-05-31 06:56:19: [INFO]: Seed: 2, Step: 720000, Eval mean: -19.24, Eval std: 118.90
+2023-05-31 06:56:20: [INFO]: Seed: 42, Step: 720000, Eval mean: 182.48, Eval std: 68.85
+2023-05-31 06:56:20: [INFO]: Seed: 0, Step: 720000, Eval mean: 188.76, Eval std: 63.39
+2023-05-31 06:56:20: [INFO]: Seed: 0, Save best model at eval mean 188.7590 and step 720000
+2023-05-31 06:56:20: [INFO]: Seed: 3407, Step: 720000, Eval mean: 213.00, Eval std: 75.09
+2023-05-31 06:57:13: [INFO]: Seed: 3407, Step: 740000, Eval mean: 236.48, Eval std: 18.81
+2023-05-31 06:57:13: [INFO]: Seed: 1, Step: 740000, Eval mean: -72.23, Eval std: 35.45
+2023-05-31 06:57:16: [INFO]: Seed: 2, Step: 740000, Eval mean: 47.35, Eval std: 173.40
+2023-05-31 06:57:17: [INFO]: Seed: 42, Step: 740000, Eval mean: 157.61, Eval std: 109.53
+2023-05-31 06:57:18: [INFO]: Seed: 0, Step: 740000, Eval mean: 159.50, Eval std: 92.87
+2023-05-31 06:58:20: [INFO]: Seed: 1, Step: 760000, Eval mean: -71.04, Eval std: 29.42
+2023-05-31 06:58:23: [INFO]: Seed: 3407, Step: 760000, Eval mean: 247.44, Eval std: 19.82
+2023-05-31 06:58:24: [INFO]: Seed: 42, Step: 760000, Eval mean: 120.61, Eval std: 126.41
+2023-05-31 06:58:27: [INFO]: Seed: 2, Step: 760000, Eval mean: 46.33, Eval std: 113.09
+2023-05-31 06:58:29: [INFO]: Seed: 0, Step: 760000, Eval mean: 139.15, Eval std: 104.97
+2023-05-31 06:59:40: [INFO]: Seed: 1, Step: 780000, Eval mean: -50.93, Eval std: 67.55
+2023-05-31 06:59:41: [INFO]: Seed: 3407, Step: 780000, Eval mean: 215.54, Eval std: 74.21
+2023-05-31 06:59:42: [INFO]: Seed: 2, Step: 780000, Eval mean: 69.63, Eval std: 106.44
+2023-05-31 06:59:43: [INFO]: Seed: 0, Step: 780000, Eval mean: 155.51, Eval std: 86.00
+2023-05-31 06:59:43: [INFO]: Seed: 42, Step: 780000, Eval mean: 163.27, Eval std: 105.42
+2023-05-31 07:00:53: [INFO]: Seed: 1, Step: 800000, Eval mean: -69.78, Eval std: 32.59
+2023-05-31 07:00:54: [INFO]: Seed: 42, Step: 800000, Eval mean: 126.08, Eval std: 112.60
+2023-05-31 07:00:54: [INFO]: Seed: 2, Step: 800000, Eval mean: 14.02, Eval std: 126.05
+2023-05-31 07:00:54: [INFO]: Seed: 0, Step: 800000, Eval mean: 137.89, Eval std: 80.95
+2023-05-31 07:00:56: [INFO]: Seed: 3407, Step: 800000, Eval mean: 242.83, Eval std: 16.93
+2023-05-31 07:02:10: [INFO]: Seed: 1, Step: 820000, Eval mean: -89.41, Eval std: 95.58
+2023-05-31 07:02:11: [INFO]: Seed: 3407, Step: 820000, Eval mean: 249.54, Eval std: 10.37
+2023-05-31 07:02:12: [INFO]: Seed: 42, Step: 820000, Eval mean: 119.01, Eval std: 112.03
+2023-05-31 07:02:14: [INFO]: Seed: 0, Step: 820000, Eval mean: 123.30, Eval std: 103.87
+2023-05-31 07:02:15: [INFO]: Seed: 2, Step: 820000, Eval mean: 70.92, Eval std: 142.31
+2023-05-31 07:03:23: [INFO]: Seed: 3407, Step: 840000, Eval mean: 224.79, Eval std: 69.35
+2023-05-31 07:03:23: [INFO]: Seed: 0, Step: 840000, Eval mean: 129.77, Eval std: 111.26
+2023-05-31 07:03:24: [INFO]: Seed: 1, Step: 840000, Eval mean: -66.65, Eval std: 78.88
+2023-05-31 07:03:24: [INFO]: Seed: 2, Step: 840000, Eval mean: -20.84, Eval std: 130.99
+2023-05-31 07:03:30: [INFO]: Seed: 42, Step: 840000, Eval mean: 173.15, Eval std: 55.57
+2023-05-31 07:04:38: [INFO]: Seed: 1, Step: 860000, Eval mean: -83.87, Eval std: 43.38
+2023-05-31 07:04:39: [INFO]: Seed: 3407, Step: 860000, Eval mean: 211.35, Eval std: 70.90
+2023-05-31 07:04:40: [INFO]: Seed: 0, Step: 860000, Eval mean: 126.36, Eval std: 116.76
+2023-05-31 07:04:40: [INFO]: Seed: 42, Step: 860000, Eval mean: 120.04, Eval std: 110.74
+2023-05-31 07:04:42: [INFO]: Seed: 2, Step: 860000, Eval mean: 122.16, Eval std: 141.59
+2023-05-31 07:04:42: [INFO]: Seed: 2, Save best model at eval mean 122.1611 and step 860000
+2023-05-31 07:05:48: [INFO]: Seed: 3407, Step: 880000, Eval mean: 217.34, Eval std: 70.35
+2023-05-31 07:05:48: [INFO]: Seed: 1, Step: 880000, Eval mean: -64.48, Eval std: 27.37
+2023-05-31 07:05:50: [INFO]: Seed: 2, Step: 880000, Eval mean: 139.01, Eval std: 123.26
+2023-05-31 07:05:50: [INFO]: Seed: 2, Save best model at eval mean 139.0089 and step 880000
+2023-05-31 07:05:51: [INFO]: Seed: 42, Step: 880000, Eval mean: 119.45, Eval std: 100.88
+2023-05-31 07:05:53: [INFO]: Seed: 0, Step: 880000, Eval mean: 198.33, Eval std: 54.68
+2023-05-31 07:05:53: [INFO]: Seed: 0, Save best model at eval mean 198.3304 and step 880000
+2023-05-31 07:07:01: [INFO]: Seed: 0, Step: 900000, Eval mean: 110.09, Eval std: 129.17
+2023-05-31 07:07:02: [INFO]: Seed: 42, Step: 900000, Eval mean: 116.83, Eval std: 118.69
+2023-05-31 07:07:02: [INFO]: Seed: 1, Step: 900000, Eval mean: -40.31, Eval std: 75.64
+2023-05-31 07:07:03: [INFO]: Seed: 3407, Step: 900000, Eval mean: 243.89, Eval std: 21.49
+2023-05-31 07:07:06: [INFO]: Seed: 2, Step: 900000, Eval mean: 57.32, Eval std: 140.03
+2023-05-31 07:08:18: [INFO]: Seed: 1, Step: 920000, Eval mean: -88.28, Eval std: 36.76
+2023-05-31 07:08:18: [INFO]: Seed: 3407, Step: 920000, Eval mean: 194.64, Eval std: 99.53
+2023-05-31 07:08:20: [INFO]: Seed: 2, Step: 920000, Eval mean: 94.32, Eval std: 127.19
+2023-05-31 07:08:20: [INFO]: Seed: 42, Step: 920000, Eval mean: 119.86, Eval std: 96.92
+2023-05-31 07:08:21: [INFO]: Seed: 0, Step: 920000, Eval mean: 60.76, Eval std: 122.52
+2023-05-31 07:09:26: [INFO]: Seed: 2, Step: 940000, Eval mean: 64.31, Eval std: 149.66
+2023-05-31 07:09:27: [INFO]: Seed: 1, Step: 940000, Eval mean: -139.56, Eval std: 88.46
+2023-05-31 07:09:29: [INFO]: Seed: 3407, Step: 940000, Eval mean: 246.34, Eval std: 16.08
+2023-05-31 07:09:30: [INFO]: Seed: 0, Step: 940000, Eval mean: 159.03, Eval std: 109.95
+2023-05-31 07:09:32: [INFO]: Seed: 42, Step: 940000, Eval mean: 101.67, Eval std: 99.91
+2023-05-31 07:10:35: [INFO]: Seed: 3407, Step: 960000, Eval mean: 198.97, Eval std: 89.64
+2023-05-31 07:10:41: [INFO]: Seed: 1, Step: 960000, Eval mean: -7.93, Eval std: 123.23
+2023-05-31 07:10:41: [INFO]: Seed: 1, Save best model at eval mean -7.9317 and step 960000
+2023-05-31 07:10:41: [INFO]: Seed: 42, Step: 960000, Eval mean: 99.83, Eval std: 116.45
+2023-05-31 07:10:42: [INFO]: Seed: 2, Step: 960000, Eval mean: 104.04, Eval std: 133.85
+2023-05-31 07:10:42: [INFO]: Seed: 0, Step: 960000, Eval mean: 175.27, Eval std: 95.07
+2023-05-31 07:11:45: [INFO]: Seed: 1, Step: 980000, Eval mean: -63.72, Eval std: 90.52
+2023-05-31 07:11:47: [INFO]: Seed: 3407, Step: 980000, Eval mean: 209.09, Eval std: 95.78
+2023-05-31 07:11:51: [INFO]: Seed: 0, Step: 980000, Eval mean: 97.16, Eval std: 139.91
+2023-05-31 07:11:52: [INFO]: Seed: 2, Step: 980000, Eval mean: 159.95, Eval std: 77.25
+2023-05-31 07:11:52: [INFO]: Seed: 2, Save best model at eval mean 159.9463 and step 980000
+2023-05-31 07:11:53: [INFO]: Seed: 42, Step: 980000, Eval mean: 180.73, Eval std: 97.92
+2023-05-31 07:13:04: [INFO]: Seed: 3407, Step: 1000000, Eval mean: 244.90, Eval std: 18.18
+2023-05-31 07:13:07: [INFO]: Seed: 1, Step: 1000000, Eval mean: -69.24, Eval std: 29.71
+2023-05-31 07:13:07: [INFO]: Seed: 42, Step: 1000000, Eval mean: 177.49, Eval std: 85.60
+2023-05-31 07:13:10: [INFO]: Seed: 2, Step: 1000000, Eval mean: 157.05, Eval std: 90.41
+2023-05-31 07:13:11: [INFO]: Seed: 0, Step: 1000000, Eval mean: 223.49, Eval std: 41.56
+2023-05-31 07:13:11: [INFO]: Seed: 0, Save best model at eval mean 223.4852 and step 1000000
+2023-05-31 07:14:15: [INFO]: Seed: 3407, Step: 1020000, Eval mean: 234.40, Eval std: 71.67
+2023-05-31 07:14:16: [INFO]: Seed: 1, Step: 1020000, Eval mean: -90.05, Eval std: 36.46
+2023-05-31 07:14:19: [INFO]: Seed: 2, Step: 1020000, Eval mean: 23.35, Eval std: 127.24
+2023-05-31 07:14:22: [INFO]: Seed: 0, Step: 1020000, Eval mean: 157.15, Eval std: 107.26
+2023-05-31 07:14:23: [INFO]: Seed: 42, Step: 1020000, Eval mean: 209.20, Eval std: 27.88
+2023-05-31 07:14:23: [INFO]: Seed: 42, Save best model at eval mean 209.1957 and step 1020000
+2023-05-31 07:15:27: [INFO]: Seed: 3407, Step: 1040000, Eval mean: 244.21, Eval std: 10.88
+2023-05-31 07:15:29: [INFO]: Seed: 1, Step: 1040000, Eval mean: -62.20, Eval std: 92.97
+2023-05-31 07:15:31: [INFO]: Seed: 42, Step: 1040000, Eval mean: 128.75, Eval std: 107.17
+2023-05-31 07:15:33: [INFO]: Seed: 2, Step: 1040000, Eval mean: 133.49, Eval std: 106.42
+2023-05-31 07:15:33: [INFO]: Seed: 0, Step: 1040000, Eval mean: 116.87, Eval std: 132.02
+2023-05-31 07:16:37: [INFO]: Seed: 3407, Step: 1060000, Eval mean: 231.25, Eval std: 66.04
+2023-05-31 07:16:41: [INFO]: Seed: 1, Step: 1060000, Eval mean: -33.92, Eval std: 94.46
+2023-05-31 07:16:42: [INFO]: Seed: 2, Step: 1060000, Eval mean: 138.77, Eval std: 110.65
+2023-05-31 07:16:42: [INFO]: Seed: 42, Step: 1060000, Eval mean: 154.26, Eval std: 86.68
+2023-05-31 07:16:43: [INFO]: Seed: 0, Step: 1060000, Eval mean: 114.43, Eval std: 121.38
+2023-05-31 07:17:47: [INFO]: Seed: 3407, Step: 1080000, Eval mean: 250.79, Eval std: 21.79
+2023-05-31 07:17:49: [INFO]: Seed: 1, Step: 1080000, Eval mean: -67.88, Eval std: 28.00
+2023-05-31 07:17:51: [INFO]: Seed: 0, Step: 1080000, Eval mean: 151.35, Eval std: 107.30
+2023-05-31 07:17:52: [INFO]: Seed: 2, Step: 1080000, Eval mean: 85.55, Eval std: 145.29
+2023-05-31 07:17:52: [INFO]: Seed: 42, Step: 1080000, Eval mean: 172.76, Eval std: 85.61
+2023-05-31 07:19:01: [INFO]: Seed: 1, Step: 1100000, Eval mean: -86.05, Eval std: 50.74
+2023-05-31 07:19:04: [INFO]: Seed: 3407, Step: 1100000, Eval mean: 242.52, Eval std: 10.87
+2023-05-31 07:19:05: [INFO]: Seed: 2, Step: 1100000, Eval mean: 98.06, Eval std: 120.78
+2023-05-31 07:19:05: [INFO]: Seed: 42, Step: 1100000, Eval mean: 220.32, Eval std: 17.94
+2023-05-31 07:19:05: [INFO]: Seed: 42, Save best model at eval mean 220.3204 and step 1100000
+2023-05-31 07:19:09: [INFO]: Seed: 0, Step: 1100000, Eval mean: 218.32, Eval std: 33.99
+2023-05-31 07:20:11: [INFO]: Seed: 3407, Step: 1120000, Eval mean: 223.11, Eval std: 59.51
+2023-05-31 07:20:16: [INFO]: Seed: 2, Step: 1120000, Eval mean: 133.36, Eval std: 91.36
+2023-05-31 07:20:16: [INFO]: Seed: 1, Step: 1120000, Eval mean: 17.84, Eval std: 151.40
+2023-05-31 07:20:16: [INFO]: Seed: 1, Save best model at eval mean 17.8379 and step 1120000
+2023-05-31 07:20:18: [INFO]: Seed: 42, Step: 1120000, Eval mean: 117.37, Eval std: 117.62
+2023-05-31 07:20:19: [INFO]: Seed: 0, Step: 1120000, Eval mean: 200.36, Eval std: 59.06
+2023-05-31 07:21:21: [INFO]: Seed: 1, Step: 1140000, Eval mean: -51.15, Eval std: 74.36
+2023-05-31 07:21:26: [INFO]: Seed: 3407, Step: 1140000, Eval mean: 242.29, Eval std: 26.18
+2023-05-31 07:21:27: [INFO]: Seed: 2, Step: 1140000, Eval mean: 42.48, Eval std: 110.44
+2023-05-31 07:21:27: [INFO]: Seed: 0, Step: 1140000, Eval mean: 130.51, Eval std: 101.99
+2023-05-31 07:21:29: [INFO]: Seed: 42, Step: 1140000, Eval mean: 198.16, Eval std: 60.59
+2023-05-31 07:22:31: [INFO]: Seed: 3407, Step: 1160000, Eval mean: 248.11, Eval std: 13.25
+2023-05-31 07:22:33: [INFO]: Seed: 1, Step: 1160000, Eval mean: -11.74, Eval std: 105.61
+2023-05-31 07:22:33: [INFO]: Seed: 2, Step: 1160000, Eval mean: 174.24, Eval std: 102.15
+2023-05-31 07:22:33: [INFO]: Seed: 2, Save best model at eval mean 174.2355 and step 1160000
+2023-05-31 07:22:37: [INFO]: Seed: 42, Step: 1160000, Eval mean: 216.78, Eval std: 80.55
+2023-05-31 07:22:39: [INFO]: Seed: 0, Step: 1160000, Eval mean: 134.60, Eval std: 100.39
+2023-05-31 07:23:47: [INFO]: Seed: 1, Step: 1180000, Eval mean: -18.17, Eval std: 105.35
+2023-05-31 07:23:49: [INFO]: Seed: 2, Step: 1180000, Eval mean: 91.00, Eval std: 144.28
+2023-05-31 07:23:51: [INFO]: Seed: 42, Step: 1180000, Eval mean: 186.82, Eval std: 100.07
+2023-05-31 07:23:51: [INFO]: Seed: 3407, Step: 1180000, Eval mean: 207.53, Eval std: 62.06
+2023-05-31 07:23:58: [INFO]: Seed: 0, Step: 1180000, Eval mean: 143.34, Eval std: 79.87
+2023-05-31 07:25:00: [INFO]: Seed: 3407, Step: 1200000, Eval mean: 248.18, Eval std: 17.33
+2023-05-31 07:25:02: [INFO]: Seed: 1, Step: 1200000, Eval mean: 43.68, Eval std: 123.51
+2023-05-31 07:25:02: [INFO]: Seed: 1, Save best model at eval mean 43.6815 and step 1200000
+2023-05-31 07:25:04: [INFO]: Seed: 2, Step: 1200000, Eval mean: 78.78, Eval std: 128.30
+2023-05-31 07:25:05: [INFO]: Seed: 42, Step: 1200000, Eval mean: 181.29, Eval std: 99.76
+2023-05-31 07:25:07: [INFO]: Seed: 0, Step: 1200000, Eval mean: 110.28, Eval std: 136.31
+2023-05-31 07:26:07: [INFO]: Seed: 3407, Step: 1220000, Eval mean: 223.29, Eval std: 70.08
+2023-05-31 07:26:10: [INFO]: Seed: 1, Step: 1220000, Eval mean: -4.16, Eval std: 92.99
+2023-05-31 07:26:11: [INFO]: Seed: 2, Step: 1220000, Eval mean: 158.02, Eval std: 93.04
+2023-05-31 07:26:12: [INFO]: Seed: 42, Step: 1220000, Eval mean: 175.57, Eval std: 95.30
+2023-05-31 07:26:14: [INFO]: Seed: 0, Step: 1220000, Eval mean: 110.69, Eval std: 113.51
+2023-05-31 07:27:14: [INFO]: Seed: 1, Step: 1240000, Eval mean: -15.97, Eval std: 111.34
+2023-05-31 07:27:18: [INFO]: Seed: 3407, Step: 1240000, Eval mean: 217.71, Eval std: 56.95
+2023-05-31 07:27:20: [INFO]: Seed: 42, Step: 1240000, Eval mean: 245.95, Eval std: 32.98
+2023-05-31 07:27:20: [INFO]: Seed: 42, Save best model at eval mean 245.9494 and step 1240000
+2023-05-31 07:27:20: [INFO]: Seed: 2, Step: 1240000, Eval mean: 141.70, Eval std: 97.48
+2023-05-31 07:27:21: [INFO]: Seed: 0, Step: 1240000, Eval mean: 121.39, Eval std: 96.65
+2023-05-31 07:28:22: [INFO]: Seed: 3407, Step: 1260000, Eval mean: 243.00, Eval std: 17.23
+2023-05-31 07:28:22: [INFO]: Seed: 1, Step: 1260000, Eval mean: -25.46, Eval std: 82.20
+2023-05-31 07:28:25: [INFO]: Seed: 2, Step: 1260000, Eval mean: 154.94, Eval std: 72.37
+2023-05-31 07:28:27: [INFO]: Seed: 42, Step: 1260000, Eval mean: 226.17, Eval std: 44.13
+2023-05-31 07:28:29: [INFO]: Seed: 0, Step: 1260000, Eval mean: 114.74, Eval std: 104.14
+2023-05-31 07:29:35: [INFO]: Seed: 3407, Step: 1280000, Eval mean: 250.07, Eval std: 25.21
+2023-05-31 07:29:37: [INFO]: Seed: 2, Step: 1280000, Eval mean: 72.07, Eval std: 146.62
+2023-05-31 07:29:38: [INFO]: Seed: 1, Step: 1280000, Eval mean: -8.44, Eval std: 94.57
+2023-05-31 07:29:40: [INFO]: Seed: 42, Step: 1280000, Eval mean: 241.36, Eval std: 36.69
+2023-05-31 07:29:43: [INFO]: Seed: 0, Step: 1280000, Eval mean: 123.26, Eval std: 110.31
+2023-05-31 07:30:45: [INFO]: Seed: 3407, Step: 1300000, Eval mean: 232.20, Eval std: 70.98
+2023-05-31 07:30:45: [INFO]: Seed: 1, Step: 1300000, Eval mean: -20.25, Eval std: 72.26
+2023-05-31 07:30:48: [INFO]: Seed: 2, Step: 1300000, Eval mean: 143.23, Eval std: 84.35
+2023-05-31 07:30:51: [INFO]: Seed: 0, Step: 1300000, Eval mean: 93.40, Eval std: 119.50
+2023-05-31 07:30:58: [INFO]: Seed: 42, Step: 1300000, Eval mean: 196.30, Eval std: 61.49
+2023-05-31 07:32:00: [INFO]: Seed: 1, Step: 1320000, Eval mean: 21.74, Eval std: 115.63
+2023-05-31 07:32:02: [INFO]: Seed: 3407, Step: 1320000, Eval mean: 247.21, Eval std: 14.36
+2023-05-31 07:32:05: [INFO]: Seed: 42, Step: 1320000, Eval mean: 253.53, Eval std: 28.67
+2023-05-31 07:32:05: [INFO]: Seed: 42, Save best model at eval mean 253.5335 and step 1320000
+2023-05-31 07:32:06: [INFO]: Seed: 2, Step: 1320000, Eval mean: 195.90, Eval std: 85.88
+2023-05-31 07:32:06: [INFO]: Seed: 2, Save best model at eval mean 195.9035 and step 1320000
+2023-05-31 07:32:09: [INFO]: Seed: 0, Step: 1320000, Eval mean: 154.28, Eval std: 88.46
+2023-05-31 07:33:12: [INFO]: Seed: 3407, Step: 1340000, Eval mean: 234.00, Eval std: 73.26
+2023-05-31 07:33:13: [INFO]: Seed: 1, Step: 1340000, Eval mean: -19.83, Eval std: 96.09
+2023-05-31 07:33:14: [INFO]: Seed: 0, Step: 1340000, Eval mean: 125.45, Eval std: 113.72
+2023-05-31 07:33:14: [INFO]: Seed: 2, Step: 1340000, Eval mean: 125.93, Eval std: 146.26
+2023-05-31 07:33:16: [INFO]: Seed: 42, Step: 1340000, Eval mean: 208.39, Eval std: 99.54
+2023-05-31 07:34:22: [INFO]: Seed: 1, Step: 1360000, Eval mean: -62.70, Eval std: 25.30
+2023-05-31 07:34:25: [INFO]: Seed: 3407, Step: 1360000, Eval mean: 236.47, Eval std: 26.26
+2023-05-31 07:34:26: [INFO]: Seed: 2, Step: 1360000, Eval mean: 151.35, Eval std: 124.11
+2023-05-31 07:34:29: [INFO]: Seed: 0, Step: 1360000, Eval mean: 194.98, Eval std: 79.92
+2023-05-31 07:34:35: [INFO]: Seed: 42, Step: 1360000, Eval mean: 183.51, Eval std: 88.75
+2023-05-31 07:35:33: [INFO]: Seed: 3407, Step: 1380000, Eval mean: 245.52, Eval std: 10.71
+2023-05-31 07:35:39: [INFO]: Seed: 2, Step: 1380000, Eval mean: 118.97, Eval std: 118.24
+2023-05-31 07:35:40: [INFO]: Seed: 1, Step: 1380000, Eval mean: 58.59, Eval std: 123.22
+2023-05-31 07:35:40: [INFO]: Seed: 1, Save best model at eval mean 58.5889 and step 1380000
+2023-05-31 07:35:41: [INFO]: Seed: 0, Step: 1380000, Eval mean: 193.52, Eval std: 71.11
+2023-05-31 07:35:42: [INFO]: Seed: 42, Step: 1380000, Eval mean: 214.42, Eval std: 87.03
+2023-05-31 07:36:43: [INFO]: Seed: 1, Step: 1400000, Eval mean: 4.70, Eval std: 108.35
+2023-05-31 07:36:43: [INFO]: Seed: 3407, Step: 1400000, Eval mean: 251.44, Eval std: 18.68
+2023-05-31 07:36:45: [INFO]: Seed: 42, Step: 1400000, Eval mean: 231.47, Eval std: 21.19
+2023-05-31 07:36:47: [INFO]: Seed: 2, Step: 1400000, Eval mean: 116.69, Eval std: 117.37
+2023-05-31 07:36:52: [INFO]: Seed: 0, Step: 1400000, Eval mean: 178.65, Eval std: 106.53
+2023-05-31 07:37:51: [INFO]: Seed: 3407, Step: 1420000, Eval mean: 248.15, Eval std: 16.26
+2023-05-31 07:37:53: [INFO]: Seed: 1, Step: 1420000, Eval mean: -32.06, Eval std: 115.00
+2023-05-31 07:37:55: [INFO]: Seed: 42, Step: 1420000, Eval mean: 194.89, Eval std: 90.76
+2023-05-31 07:37:56: [INFO]: Seed: 2, Step: 1420000, Eval mean: 135.69, Eval std: 105.09
+2023-05-31 07:37:58: [INFO]: Seed: 0, Step: 1420000, Eval mean: 158.63, Eval std: 116.01
+2023-05-31 07:38:57: [INFO]: Seed: 3407, Step: 1440000, Eval mean: 234.31, Eval std: 69.00
+2023-05-31 07:39:01: [INFO]: Seed: 0, Step: 1440000, Eval mean: 165.51, Eval std: 108.26
+2023-05-31 07:39:03: [INFO]: Seed: 1, Step: 1440000, Eval mean: 38.75, Eval std: 129.25
+2023-05-31 07:39:05: [INFO]: Seed: 42, Step: 1440000, Eval mean: 195.52, Eval std: 86.89
+2023-05-31 07:39:05: [INFO]: Seed: 2, Step: 1440000, Eval mean: 148.98, Eval std: 109.38
+2023-05-31 07:40:11: [INFO]: Seed: 3407, Step: 1460000, Eval mean: 229.31, Eval std: 68.25
+2023-05-31 07:40:14: [INFO]: Seed: 1, Step: 1460000, Eval mean: -38.31, Eval std: 72.61
+2023-05-31 07:40:14: [INFO]: Seed: 2, Step: 1460000, Eval mean: 190.82, Eval std: 92.54
+2023-05-31 07:40:16: [INFO]: Seed: 0, Step: 1460000, Eval mean: 149.26, Eval std: 98.25
+2023-05-31 07:40:22: [INFO]: Seed: 42, Step: 1460000, Eval mean: 177.49, Eval std: 98.19
+2023-05-31 07:41:21: [INFO]: Seed: 3407, Step: 1480000, Eval mean: 222.18, Eval std: 69.69
+2023-05-31 07:41:23: [INFO]: Seed: 1, Step: 1480000, Eval mean: 11.49, Eval std: 98.21
+2023-05-31 07:41:26: [INFO]: Seed: 0, Step: 1480000, Eval mean: 218.37, Eval std: 46.94
+2023-05-31 07:41:26: [INFO]: Seed: 2, Step: 1480000, Eval mean: 147.91, Eval std: 87.62
+2023-05-31 07:41:27: [INFO]: Seed: 42, Step: 1480000, Eval mean: 142.87, Eval std: 100.27
+2023-05-31 07:42:23: [INFO]: Seed: 1, Step: 1500000, Eval mean: -20.75, Eval std: 88.51
+2023-05-31 07:42:23: [INFO]: Seed: 3407, Step: 1500000, Eval mean: 250.01, Eval std: 21.89
+2023-05-31 07:42:26: [INFO]: Seed: 42, Step: 1500000, Eval mean: 232.93, Eval std: 56.05
+2023-05-31 07:42:27: [INFO]: Seed: 0, Step: 1500000, Eval mean: 157.10, Eval std: 116.06
+2023-05-31 07:42:28: [INFO]: Seed: 2, Step: 1500000, Eval mean: 93.88, Eval std: 140.79
+2023-05-31 07:43:19: [INFO]: Seed: 3407, Step: 1520000, Eval mean: 254.56, Eval std: 20.25
+2023-05-31 07:43:25: [INFO]: Seed: 1, Step: 1520000, Eval mean: 11.50, Eval std: 122.23
+2023-05-31 07:43:25: [INFO]: Seed: 42, Step: 1520000, Eval mean: 202.41, Eval std: 94.11
+2023-05-31 07:43:26: [INFO]: Seed: 2, Step: 1520000, Eval mean: 86.38, Eval std: 140.56
+2023-05-31 07:43:26: [INFO]: Seed: 0, Step: 1520000, Eval mean: 197.29, Eval std: 68.22
+2023-05-31 07:43:58: [INFO]: Seed: 1, Step: 1540000, Eval mean: 49.11, Eval std: 110.22
+2023-05-31 07:43:59: [INFO]: Seed: 2, Step: 1540000, Eval mean: 135.41, Eval std: 124.15
+2023-05-31 07:44:00: [INFO]: Seed: 3407, Step: 1540000, Eval mean: 249.51, Eval std: 14.20
+2023-05-31 07:44:01: [INFO]: Seed: 0, Step: 1540000, Eval mean: 156.26, Eval std: 74.47
+2023-05-31 07:44:05: [INFO]: Seed: 42, Step: 1540000, Eval mean: 124.49, Eval std: 107.21
+2023-05-31 07:45:07: [INFO]: Seed: 3407, Step: 1560000, Eval mean: 261.72, Eval std: 14.11
+2023-05-31 07:45:07: [INFO]: Seed: 3407, Save best model at eval mean 261.7215 and step 1560000
+2023-05-31 07:45:11: [INFO]: Seed: 2, Step: 1560000, Eval mean: 209.22, Eval std: 40.50
+2023-05-31 07:45:11: [INFO]: Seed: 2, Save best model at eval mean 209.2223 and step 1560000
+2023-05-31 07:45:12: [INFO]: Seed: 1, Step: 1560000, Eval mean: 30.61, Eval std: 123.59
+2023-05-31 07:45:13: [INFO]: Seed: 42, Step: 1560000, Eval mean: 235.21, Eval std: 63.17
+2023-05-31 07:45:18: [INFO]: Seed: 0, Step: 1560000, Eval mean: 197.08, Eval std: 77.76
+2023-05-31 07:46:14: [INFO]: Seed: 3407, Step: 1580000, Eval mean: 221.91, Eval std: 69.33
+2023-05-31 07:46:15: [INFO]: Seed: 1, Step: 1580000, Eval mean: -49.29, Eval std: 87.70
+2023-05-31 07:46:16: [INFO]: Seed: 42, Step: 1580000, Eval mean: 209.58, Eval std: 83.54
+2023-05-31 07:46:18: [INFO]: Seed: 2, Step: 1580000, Eval mean: 224.40, Eval std: 37.64
+2023-05-31 07:46:18: [INFO]: Seed: 2, Save best model at eval mean 224.4037 and step 1580000
+2023-05-31 07:46:29: [INFO]: Seed: 0, Step: 1580000, Eval mean: 215.72, Eval std: 61.07
+2023-05-31 07:47:23: [INFO]: Seed: 3407, Step: 1600000, Eval mean: 219.37, Eval std: 63.47
+2023-05-31 07:47:25: [INFO]: Seed: 1, Step: 1600000, Eval mean: 38.39, Eval std: 111.64
+2023-05-31 07:47:30: [INFO]: Seed: 2, Step: 1600000, Eval mean: 114.59, Eval std: 159.18
+2023-05-31 07:47:32: [INFO]: Seed: 0, Step: 1600000, Eval mean: 174.39, Eval std: 99.88
+2023-05-31 07:47:32: [INFO]: Seed: 42, Step: 1600000, Eval mean: 170.32, Eval std: 89.36
+2023-05-31 07:48:30: [INFO]: Seed: 3407, Step: 1620000, Eval mean: 233.03, Eval std: 59.14
+2023-05-31 07:48:33: [INFO]: Seed: 42, Step: 1620000, Eval mean: 162.12, Eval std: 108.31
+2023-05-31 07:48:34: [INFO]: Seed: 1, Step: 1620000, Eval mean: 25.71, Eval std: 101.13
+2023-05-31 07:48:34: [INFO]: Seed: 0, Step: 1620000, Eval mean: 197.18, Eval std: 85.66
+2023-05-31 07:48:35: [INFO]: Seed: 2, Step: 1620000, Eval mean: 155.73, Eval std: 116.37
+2023-05-31 07:49:39: [INFO]: Seed: 1, Step: 1640000, Eval mean: 53.84, Eval std: 118.17
+2023-05-31 07:49:39: [INFO]: Seed: 3407, Step: 1640000, Eval mean: 238.38, Eval std: 21.57
+2023-05-31 07:49:43: [INFO]: Seed: 2, Step: 1640000, Eval mean: 200.85, Eval std: 80.49
+2023-05-31 07:49:44: [INFO]: Seed: 0, Step: 1640000, Eval mean: 180.25, Eval std: 131.19
+2023-05-31 07:49:45: [INFO]: Seed: 42, Step: 1640000, Eval mean: 124.69, Eval std: 106.36
+2023-05-31 07:50:38: [INFO]: Seed: 1, Step: 1660000, Eval mean: 95.51, Eval std: 125.78
+2023-05-31 07:50:38: [INFO]: Seed: 1, Save best model at eval mean 95.5129 and step 1660000
+2023-05-31 07:50:39: [INFO]: Seed: 3407, Step: 1660000, Eval mean: 239.16, Eval std: 10.30
+2023-05-31 07:50:45: [INFO]: Seed: 42, Step: 1660000, Eval mean: 213.44, Eval std: 70.72
+2023-05-31 07:50:47: [INFO]: Seed: 2, Step: 1660000, Eval mean: 194.11, Eval std: 40.39
+2023-05-31 07:50:49: [INFO]: Seed: 0, Step: 1660000, Eval mean: 209.14, Eval std: 96.82
+2023-05-31 07:51:44: [INFO]: Seed: 3407, Step: 1680000, Eval mean: 237.57, Eval std: 71.76
+2023-05-31 07:51:47: [INFO]: Seed: 1, Step: 1680000, Eval mean: 76.97, Eval std: 115.77
+2023-05-31 07:51:50: [INFO]: Seed: 42, Step: 1680000, Eval mean: 191.62, Eval std: 90.31
+2023-05-31 07:51:51: [INFO]: Seed: 2, Step: 1680000, Eval mean: 141.92, Eval std: 93.93
+2023-05-31 07:51:51: [INFO]: Seed: 0, Step: 1680000, Eval mean: 168.72, Eval std: 102.85
+2023-05-31 07:52:45: [INFO]: Seed: 3407, Step: 1700000, Eval mean: 249.87, Eval std: 15.93
+2023-05-31 07:52:46: [INFO]: Seed: 1, Step: 1700000, Eval mean: -45.88, Eval std: 109.98
+2023-05-31 07:52:50: [INFO]: Seed: 42, Step: 1700000, Eval mean: 166.95, Eval std: 100.03
+2023-05-31 07:52:50: [INFO]: Seed: 2, Step: 1700000, Eval mean: 130.84, Eval std: 105.01
+2023-05-31 07:52:53: [INFO]: Seed: 0, Step: 1700000, Eval mean: 110.20, Eval std: 99.39
+2023-05-31 07:53:50: [INFO]: Seed: 3407, Step: 1720000, Eval mean: 222.42, Eval std: 71.35
+2023-05-31 07:53:51: [INFO]: Seed: 2, Step: 1720000, Eval mean: 157.71, Eval std: 95.40
+2023-05-31 07:53:51: [INFO]: Seed: 1, Step: 1720000, Eval mean: 67.81, Eval std: 150.13
+2023-05-31 07:53:54: [INFO]: Seed: 42, Step: 1720000, Eval mean: 203.80, Eval std: 76.15
+2023-05-31 07:53:56: [INFO]: Seed: 0, Step: 1720000, Eval mean: 146.78, Eval std: 108.91
+2023-05-31 07:54:57: [INFO]: Seed: 3407, Step: 1740000, Eval mean: 232.73, Eval std: 70.21
+2023-05-31 07:55:02: [INFO]: Seed: 1, Step: 1740000, Eval mean: 33.27, Eval std: 153.96
+2023-05-31 07:55:03: [INFO]: Seed: 2, Step: 1740000, Eval mean: 157.61, Eval std: 98.39
+2023-05-31 07:55:04: [INFO]: Seed: 0, Step: 1740000, Eval mean: 188.14, Eval std: 66.94
+2023-05-31 07:55:04: [INFO]: Seed: 42, Step: 1740000, Eval mean: 218.06, Eval std: 89.08
+2023-05-31 07:55:55: [INFO]: Seed: 3407, Step: 1760000, Eval mean: 260.96, Eval std: 8.71
+2023-05-31 07:56:00: [INFO]: Seed: 1, Step: 1760000, Eval mean: 79.36, Eval std: 148.93
+2023-05-31 07:56:02: [INFO]: Seed: 2, Step: 1760000, Eval mean: 175.38, Eval std: 81.59
+2023-05-31 07:56:07: [INFO]: Seed: 42, Step: 1760000, Eval mean: 203.41, Eval std: 76.50
+2023-05-31 07:56:07: [INFO]: Seed: 0, Step: 1760000, Eval mean: 201.49, Eval std: 54.67
+2023-05-31 07:57:00: [INFO]: Seed: 1, Step: 1780000, Eval mean: 62.39, Eval std: 153.94
+2023-05-31 07:57:02: [INFO]: Seed: 3407, Step: 1780000, Eval mean: 256.71, Eval std: 17.81
+2023-05-31 07:57:06: [INFO]: Seed: 42, Step: 1780000, Eval mean: 166.33, Eval std: 107.33
+2023-05-31 07:57:07: [INFO]: Seed: 2, Step: 1780000, Eval mean: 202.48, Eval std: 29.14
+2023-05-31 07:57:12: [INFO]: Seed: 0, Step: 1780000, Eval mean: 136.73, Eval std: 127.45
+2023-05-31 07:58:04: [INFO]: Seed: 1, Step: 1800000, Eval mean: -23.67, Eval std: 85.03
+2023-05-31 07:58:05: [INFO]: Seed: 3407, Step: 1800000, Eval mean: 227.78, Eval std: 69.88
+2023-05-31 07:58:05: [INFO]: Seed: 42, Step: 1800000, Eval mean: 169.57, Eval std: 106.88
+2023-05-31 07:58:15: [INFO]: Seed: 2, Step: 1800000, Eval mean: 176.93, Eval std: 77.64
+2023-05-31 07:58:17: [INFO]: Seed: 0, Step: 1800000, Eval mean: 216.87, Eval std: 74.52
+2023-05-31 07:59:18: [INFO]: Seed: 1, Step: 1820000, Eval mean: 84.96, Eval std: 122.58
+2023-05-31 07:59:18: [INFO]: Seed: 3407, Step: 1820000, Eval mean: 243.34, Eval std: 15.20
+2023-05-31 07:59:20: [INFO]: Seed: 42, Step: 1820000, Eval mean: 99.73, Eval std: 78.34
+2023-05-31 07:59:25: [INFO]: Seed: 2, Step: 1820000, Eval mean: 181.51, Eval std: 105.21
+2023-05-31 07:59:29: [INFO]: Seed: 0, Step: 1820000, Eval mean: 157.56, Eval std: 78.20
+2023-05-31 08:00:23: [INFO]: Seed: 1, Step: 1840000, Eval mean: 41.63, Eval std: 147.27
+2023-05-31 08:00:25: [INFO]: Seed: 3407, Step: 1840000, Eval mean: 244.59, Eval std: 30.17
+2023-05-31 08:00:27: [INFO]: Seed: 42, Step: 1840000, Eval mean: 202.64, Eval std: 95.44
+2023-05-31 08:00:30: [INFO]: Seed: 0, Step: 1840000, Eval mean: 191.27, Eval std: 70.98
+2023-05-31 08:00:32: [INFO]: Seed: 2, Step: 1840000, Eval mean: 143.15, Eval std: 79.16
+2023-05-31 08:01:26: [INFO]: Seed: 3407, Step: 1860000, Eval mean: 225.99, Eval std: 64.72
+2023-05-31 08:01:29: [INFO]: Seed: 42, Step: 1860000, Eval mean: 254.61, Eval std: 60.25
+2023-05-31 08:01:29: [INFO]: Seed: 42, Save best model at eval mean 254.6055 and step 1860000
+2023-05-31 08:01:30: [INFO]: Seed: 1, Step: 1860000, Eval mean: 24.27, Eval std: 140.54
+2023-05-31 08:01:32: [INFO]: Seed: 2, Step: 1860000, Eval mean: 143.31, Eval std: 94.14
+2023-05-31 08:01:34: [INFO]: Seed: 0, Step: 1860000, Eval mean: 160.67, Eval std: 105.97
+2023-05-31 08:02:26: [INFO]: Seed: 1, Step: 1880000, Eval mean: 64.06, Eval std: 119.50
+2023-05-31 08:02:27: [INFO]: Seed: 3407, Step: 1880000, Eval mean: 204.77, Eval std: 95.74
+2023-05-31 08:02:31: [INFO]: Seed: 42, Step: 1880000, Eval mean: 159.99, Eval std: 117.57
+2023-05-31 08:02:33: [INFO]: Seed: 2, Step: 1880000, Eval mean: 187.70, Eval std: 103.00
+2023-05-31 08:02:40: [INFO]: Seed: 0, Step: 1880000, Eval mean: 182.33, Eval std: 81.56
+2023-05-31 08:03:37: [INFO]: Seed: 1, Step: 1900000, Eval mean: 116.44, Eval std: 126.08
+2023-05-31 08:03:37: [INFO]: Seed: 1, Save best model at eval mean 116.4362 and step 1900000
+2023-05-31 08:03:37: [INFO]: Seed: 42, Step: 1900000, Eval mean: 193.82, Eval std: 98.96
+2023-05-31 08:03:39: [INFO]: Seed: 2, Step: 1900000, Eval mean: 159.42, Eval std: 102.28
+2023-05-31 08:03:40: [INFO]: Seed: 3407, Step: 1900000, Eval mean: 256.85, Eval std: 12.70
+2023-05-31 08:03:42: [INFO]: Seed: 0, Step: 1900000, Eval mean: 146.67, Eval std: 103.42
+2023-05-31 08:04:43: [INFO]: Seed: 1, Step: 1920000, Eval mean: 15.00, Eval std: 120.09
+2023-05-31 08:04:46: [INFO]: Seed: 3407, Step: 1920000, Eval mean: 231.20, Eval std: 74.06
+2023-05-31 08:04:46: [INFO]: Seed: 2, Step: 1920000, Eval mean: 184.07, Eval std: 74.54
+2023-05-31 08:04:48: [INFO]: Seed: 42, Step: 1920000, Eval mean: 139.36, Eval std: 99.05
+2023-05-31 08:04:51: [INFO]: Seed: 0, Step: 1920000, Eval mean: 110.33, Eval std: 105.34
+2023-05-31 08:05:45: [INFO]: Seed: 1, Step: 1940000, Eval mean: 73.38, Eval std: 110.73
+2023-05-31 08:05:48: [INFO]: Seed: 2, Step: 1940000, Eval mean: 186.13, Eval std: 84.27
+2023-05-31 08:05:49: [INFO]: Seed: 3407, Step: 1940000, Eval mean: 232.39, Eval std: 75.59
+2023-05-31 08:05:49: [INFO]: Seed: 42, Step: 1940000, Eval mean: 127.71, Eval std: 108.34
+2023-05-31 08:05:55: [INFO]: Seed: 0, Step: 1940000, Eval mean: 155.29, Eval std: 106.91
+2023-05-31 08:06:46: [INFO]: Seed: 42, Step: 1960000, Eval mean: 160.09, Eval std: 113.47
+2023-05-31 08:06:49: [INFO]: Seed: 3407, Step: 1960000, Eval mean: 246.22, Eval std: 21.61
+2023-05-31 08:06:51: [INFO]: Seed: 1, Step: 1960000, Eval mean: 116.69, Eval std: 112.05
+2023-05-31 08:06:51: [INFO]: Seed: 1, Save best model at eval mean 116.6941 and step 1960000
+2023-05-31 08:06:52: [INFO]: Seed: 2, Step: 1960000, Eval mean: 222.04, Eval std: 49.11
+2023-05-31 08:06:55: [INFO]: Seed: 0, Step: 1960000, Eval mean: 209.36, Eval std: 63.69
+2023-05-31 08:07:49: [INFO]: Seed: 1, Step: 1980000, Eval mean: 26.79, Eval std: 125.40
+2023-05-31 08:07:51: [INFO]: Seed: 3407, Step: 1980000, Eval mean: 211.25, Eval std: 91.49
+2023-05-31 08:07:53: [INFO]: Seed: 42, Step: 1980000, Eval mean: 231.54, Eval std: 85.98
+2023-05-31 08:07:54: [INFO]: Seed: 2, Step: 1980000, Eval mean: 125.97, Eval std: 123.44
+2023-05-31 08:07:58: [INFO]: Seed: 0, Step: 1980000, Eval mean: 145.12, Eval std: 94.99
+2023-05-31 08:08:55: [INFO]: Seed: 1, Step: 2000000, Eval mean: 10.65, Eval std: 134.31
+2023-05-31 08:08:55: [INFO]: Seed: 2, Step: 2000000, Eval mean: 103.87, Eval std: 116.54
+2023-05-31 08:08:56: [INFO]: Seed: 42, Step: 2000000, Eval mean: 127.75, Eval std: 102.64
+2023-05-31 08:08:56: [INFO]: Seed: 3407, Step: 2000000, Eval mean: 234.82, Eval std: 67.56
+2023-05-31 08:09:03: [INFO]: Seed: 0, Step: 2000000, Eval mean: 190.60, Eval std: 51.90
+2023-05-31 08:09:56: [INFO]: Seed: 1, Step: 2020000, Eval mean: 55.83, Eval std: 115.79
+2023-05-31 08:09:59: [INFO]: Seed: 3407, Step: 2020000, Eval mean: 249.15, Eval std: 17.93
+2023-05-31 08:09:59: [INFO]: Seed: 2, Step: 2020000, Eval mean: 182.58, Eval std: 97.97
+2023-05-31 08:10:00: [INFO]: Seed: 42, Step: 2020000, Eval mean: 247.75, Eval std: 34.16
+2023-05-31 08:10:05: [INFO]: Seed: 0, Step: 2020000, Eval mean: 169.01, Eval std: 75.12
+2023-05-31 08:10:57: [INFO]: Seed: 3407, Step: 2040000, Eval mean: 205.50, Eval std: 95.21
+2023-05-31 08:11:00: [INFO]: Seed: 1, Step: 2040000, Eval mean: 52.52, Eval std: 127.95
+2023-05-31 08:11:00: [INFO]: Seed: 42, Step: 2040000, Eval mean: 220.30, Eval std: 103.45
+2023-05-31 08:11:03: [INFO]: Seed: 2, Step: 2040000, Eval mean: 193.00, Eval std: 29.46
+2023-05-31 08:11:08: [INFO]: Seed: 0, Step: 2040000, Eval mean: 179.25, Eval std: 103.48
+2023-05-31 08:12:02: [INFO]: Seed: 3407, Step: 2060000, Eval mean: 206.19, Eval std: 92.30
+2023-05-31 08:12:04: [INFO]: Seed: 1, Step: 2060000, Eval mean: 57.90, Eval std: 116.57
+2023-05-31 08:12:04: [INFO]: Seed: 2, Step: 2060000, Eval mean: 178.93, Eval std: 80.45
+2023-05-31 08:12:12: [INFO]: Seed: 0, Step: 2060000, Eval mean: 211.16, Eval std: 53.39
+2023-05-31 08:12:12: [INFO]: Seed: 42, Step: 2060000, Eval mean: 215.32, Eval std: 90.64
+2023-05-31 08:13:07: [INFO]: Seed: 2, Step: 2080000, Eval mean: 120.27, Eval std: 95.59
+2023-05-31 08:13:07: [INFO]: Seed: 3407, Step: 2080000, Eval mean: 194.45, Eval std: 109.51
+2023-05-31 08:13:09: [INFO]: Seed: 42, Step: 2080000, Eval mean: 224.46, Eval std: 89.80
+2023-05-31 08:13:10: [INFO]: Seed: 1, Step: 2080000, Eval mean: 52.67, Eval std: 132.06
+2023-05-31 08:13:17: [INFO]: Seed: 0, Step: 2080000, Eval mean: 152.52, Eval std: 106.97
+2023-05-31 08:14:16: [INFO]: Seed: 3407, Step: 2100000, Eval mean: 256.67, Eval std: 13.22
+2023-05-31 08:14:18: [INFO]: Seed: 2, Step: 2100000, Eval mean: 176.34, Eval std: 99.98
+2023-05-31 08:14:19: [INFO]: Seed: 1, Step: 2100000, Eval mean: 135.38, Eval std: 141.26
+2023-05-31 08:14:19: [INFO]: Seed: 1, Save best model at eval mean 135.3819 and step 2100000
+2023-05-31 08:14:22: [INFO]: Seed: 42, Step: 2100000, Eval mean: 203.94, Eval std: 97.26
+2023-05-31 08:14:28: [INFO]: Seed: 0, Step: 2100000, Eval mean: 204.44, Eval std: 65.34
+2023-05-31 08:15:18: [INFO]: Seed: 3407, Step: 2120000, Eval mean: 258.36, Eval std: 11.40
+2023-05-31 08:15:22: [INFO]: Seed: 42, Step: 2120000, Eval mean: 226.04, Eval std: 102.76
+2023-05-31 08:15:22: [INFO]: Seed: 1, Step: 2120000, Eval mean: 69.01, Eval std: 139.14
+2023-05-31 08:15:25: [INFO]: Seed: 2, Step: 2120000, Eval mean: 197.83, Eval std: 61.10
+2023-05-31 08:15:30: [INFO]: Seed: 0, Step: 2120000, Eval mean: 151.43, Eval std: 120.98
+2023-05-31 08:16:22: [INFO]: Seed: 3407, Step: 2140000, Eval mean: 208.50, Eval std: 83.45
+2023-05-31 08:16:24: [INFO]: Seed: 1, Step: 2140000, Eval mean: 57.79, Eval std: 122.92
+2023-05-31 08:16:28: [INFO]: Seed: 42, Step: 2140000, Eval mean: 169.66, Eval std: 116.28
+2023-05-31 08:16:29: [INFO]: Seed: 2, Step: 2140000, Eval mean: 169.45, Eval std: 78.94
+2023-05-31 08:16:34: [INFO]: Seed: 0, Step: 2140000, Eval mean: 165.34, Eval std: 106.87
+2023-05-31 08:17:26: [INFO]: Seed: 1, Step: 2160000, Eval mean: 106.04, Eval std: 117.92
+2023-05-31 08:17:28: [INFO]: Seed: 3407, Step: 2160000, Eval mean: 269.46, Eval std: 13.99
+2023-05-31 08:17:28: [INFO]: Seed: 3407, Save best model at eval mean 269.4633 and step 2160000
+2023-05-31 08:17:28: [INFO]: Seed: 2, Step: 2160000, Eval mean: 186.06, Eval std: 76.31
+2023-05-31 08:17:32: [INFO]: Seed: 42, Step: 2160000, Eval mean: 245.18, Eval std: 78.74
+2023-05-31 08:17:36: [INFO]: Seed: 0, Step: 2160000, Eval mean: 172.11, Eval std: 112.51
+2023-05-31 08:18:34: [INFO]: Seed: 1, Step: 2180000, Eval mean: 140.02, Eval std: 106.70
+2023-05-31 08:18:34: [INFO]: Seed: 1, Save best model at eval mean 140.0198 and step 2180000
+2023-05-31 08:18:37: [INFO]: Seed: 3407, Step: 2180000, Eval mean: 239.83, Eval std: 67.94
+2023-05-31 08:18:41: [INFO]: Seed: 42, Step: 2180000, Eval mean: 191.65, Eval std: 108.13
+2023-05-31 08:18:43: [INFO]: Seed: 2, Step: 2180000, Eval mean: 164.22, Eval std: 54.28
+2023-05-31 08:18:45: [INFO]: Seed: 0, Step: 2180000, Eval mean: 134.61, Eval std: 139.11
+2023-05-31 08:19:35: [INFO]: Seed: 3407, Step: 2200000, Eval mean: 240.02, Eval std: 14.43
+2023-05-31 08:19:37: [INFO]: Seed: 1, Step: 2200000, Eval mean: -36.57, Eval std: 130.56
+2023-05-31 08:19:39: [INFO]: Seed: 2, Step: 2200000, Eval mean: 171.11, Eval std: 102.25
+2023-05-31 08:19:41: [INFO]: Seed: 42, Step: 2200000, Eval mean: 239.77, Eval std: 81.63
+2023-05-31 08:19:54: [INFO]: Seed: 0, Step: 2200000, Eval mean: 187.59, Eval std: 45.57
+2023-05-31 08:20:47: [INFO]: Seed: 3407, Step: 2220000, Eval mean: 251.26, Eval std: 21.64
+2023-05-31 08:20:47: [INFO]: Seed: 1, Step: 2220000, Eval mean: 61.65, Eval std: 99.55
+2023-05-31 08:20:53: [INFO]: Seed: 42, Step: 2220000, Eval mean: 191.76, Eval std: 112.33
+2023-05-31 08:20:53: [INFO]: Seed: 2, Step: 2220000, Eval mean: 166.56, Eval std: 141.22
+2023-05-31 08:20:55: [INFO]: Seed: 0, Step: 2220000, Eval mean: 205.24, Eval std: 82.12
+2023-05-31 08:21:49: [INFO]: Seed: 2, Step: 2240000, Eval mean: 159.99, Eval std: 103.27
+2023-05-31 08:21:49: [INFO]: Seed: 3407, Step: 2240000, Eval mean: 232.93, Eval std: 69.36
+2023-05-31 08:21:50: [INFO]: Seed: 1, Step: 2240000, Eval mean: 62.09, Eval std: 119.54
+2023-05-31 08:21:50: [INFO]: Seed: 42, Step: 2240000, Eval mean: 199.56, Eval std: 112.67
+2023-05-31 08:21:57: [INFO]: Seed: 0, Step: 2240000, Eval mean: 218.70, Eval std: 27.49
+2023-05-31 08:22:50: [INFO]: Seed: 3407, Step: 2260000, Eval mean: 251.42, Eval std: 17.16
+2023-05-31 08:22:51: [INFO]: Seed: 1, Step: 2260000, Eval mean: 99.90, Eval std: 116.79
+2023-05-31 08:22:51: [INFO]: Seed: 42, Step: 2260000, Eval mean: 243.25, Eval std: 71.51
+2023-05-31 08:22:55: [INFO]: Seed: 2, Step: 2260000, Eval mean: 186.94, Eval std: 66.54
+2023-05-31 08:22:57: [INFO]: Seed: 0, Step: 2260000, Eval mean: 130.27, Eval std: 103.00
+2023-05-31 08:23:57: [INFO]: Seed: 3407, Step: 2280000, Eval mean: 231.17, Eval std: 66.14
+2023-05-31 08:23:59: [INFO]: Seed: 1, Step: 2280000, Eval mean: 40.55, Eval std: 134.45
+2023-05-31 08:23:59: [INFO]: Seed: 42, Step: 2280000, Eval mean: 222.86, Eval std: 89.30
+2023-05-31 08:24:01: [INFO]: Seed: 2, Step: 2280000, Eval mean: 178.26, Eval std: 58.23
+2023-05-31 08:24:06: [INFO]: Seed: 0, Step: 2280000, Eval mean: 193.48, Eval std: 54.33
+2023-05-31 08:24:58: [INFO]: Seed: 3407, Step: 2300000, Eval mean: 208.29, Eval std: 90.48
+2023-05-31 08:24:59: [INFO]: Seed: 2, Step: 2300000, Eval mean: 103.36, Eval std: 109.63
+2023-05-31 08:25:00: [INFO]: Seed: 42, Step: 2300000, Eval mean: 204.12, Eval std: 103.97
+2023-05-31 08:25:02: [INFO]: Seed: 1, Step: 2300000, Eval mean: 14.59, Eval std: 136.85
+2023-05-31 08:25:10: [INFO]: Seed: 0, Step: 2300000, Eval mean: 246.67, Eval std: 38.20
+2023-05-31 08:25:10: [INFO]: Seed: 0, Save best model at eval mean 246.6655 and step 2300000
+2023-05-31 08:26:00: [INFO]: Seed: 3407, Step: 2320000, Eval mean: 257.29, Eval std: 22.58
+2023-05-31 08:26:01: [INFO]: Seed: 1, Step: 2320000, Eval mean: -0.91, Eval std: 96.11
+2023-05-31 08:26:05: [INFO]: Seed: 42, Step: 2320000, Eval mean: 218.76, Eval std: 86.38
+2023-05-31 08:26:07: [INFO]: Seed: 2, Step: 2320000, Eval mean: 219.65, Eval std: 16.93
+2023-05-31 08:26:13: [INFO]: Seed: 0, Step: 2320000, Eval mean: 198.06, Eval std: 65.89
+2023-05-31 08:27:05: [INFO]: Seed: 3407, Step: 2340000, Eval mean: 253.77, Eval std: 14.60
+2023-05-31 08:27:11: [INFO]: Seed: 1, Step: 2340000, Eval mean: 5.56, Eval std: 121.78
+2023-05-31 08:27:13: [INFO]: Seed: 2, Step: 2340000, Eval mean: 153.62, Eval std: 126.16
+2023-05-31 08:27:16: [INFO]: Seed: 42, Step: 2340000, Eval mean: 258.85, Eval std: 32.88
+2023-05-31 08:27:16: [INFO]: Seed: 42, Save best model at eval mean 258.8476 and step 2340000
+2023-05-31 08:27:20: [INFO]: Seed: 0, Step: 2340000, Eval mean: 175.86, Eval std: 78.12
+2023-05-31 08:28:20: [INFO]: Seed: 3407, Step: 2360000, Eval mean: 229.40, Eval std: 63.29
+2023-05-31 08:28:20: [INFO]: Seed: 1, Step: 2360000, Eval mean: 11.54, Eval std: 98.83
+2023-05-31 08:28:21: [INFO]: Seed: 42, Step: 2360000, Eval mean: 169.06, Eval std: 106.01
+2023-05-31 08:28:21: [INFO]: Seed: 2, Step: 2360000, Eval mean: 167.60, Eval std: 78.52
+2023-05-31 08:28:27: [INFO]: Seed: 0, Step: 2360000, Eval mean: 196.91, Eval std: 76.19
+2023-05-31 08:29:22: [INFO]: Seed: 3407, Step: 2380000, Eval mean: 250.14, Eval std: 16.86
+2023-05-31 08:29:22: [INFO]: Seed: 1, Step: 2380000, Eval mean: 145.38, Eval std: 122.95
+2023-05-31 08:29:22: [INFO]: Seed: 1, Save best model at eval mean 145.3771 and step 2380000
+2023-05-31 08:29:26: [INFO]: Seed: 42, Step: 2380000, Eval mean: 199.58, Eval std: 109.01
+2023-05-31 08:29:26: [INFO]: Seed: 2, Step: 2380000, Eval mean: 175.75, Eval std: 117.25
+2023-05-31 08:29:27: [INFO]: Seed: 0, Step: 2380000, Eval mean: 197.13, Eval std: 57.54
+2023-05-31 08:30:09: [INFO]: Seed: 1, Step: 2400000, Eval mean: -20.04, Eval std: 90.99
+2023-05-31 08:30:14: [INFO]: Seed: 3407, Step: 2400000, Eval mean: 248.68, Eval std: 16.33
+2023-05-31 08:30:17: [INFO]: Seed: 42, Step: 2400000, Eval mean: 211.31, Eval std: 87.24
+2023-05-31 08:30:19: [INFO]: Seed: 2, Step: 2400000, Eval mean: 203.89, Eval std: 24.67
+2023-05-31 08:30:23: [INFO]: Seed: 0, Step: 2400000, Eval mean: 130.98, Eval std: 110.11
+2023-05-31 08:31:00: [INFO]: Seed: 1, Step: 2420000, Eval mean: 47.83, Eval std: 106.34
+2023-05-31 08:31:02: [INFO]: Seed: 3407, Step: 2420000, Eval mean: 243.02, Eval std: 28.06
+2023-05-31 08:31:03: [INFO]: Seed: 2, Step: 2420000, Eval mean: 202.79, Eval std: 34.76
+2023-05-31 08:31:04: [INFO]: Seed: 42, Step: 2420000, Eval mean: 230.17, Eval std: 81.89
+2023-05-31 08:31:07: [INFO]: Seed: 0, Step: 2420000, Eval mean: 188.32, Eval std: 87.46
+2023-05-31 08:31:30: [INFO]: Seed: 3407, Step: 2440000, Eval mean: 258.17, Eval std: 6.03
+2023-05-31 08:31:31: [INFO]: Seed: 1, Step: 2440000, Eval mean: 69.20, Eval std: 87.27
+2023-05-31 08:31:32: [INFO]: Seed: 2, Step: 2440000, Eval mean: 206.19, Eval std: 56.56
+2023-05-31 08:31:32: [INFO]: Seed: 42, Step: 2440000, Eval mean: 155.51, Eval std: 110.60
+2023-05-31 08:31:38: [INFO]: Seed: 0, Step: 2440000, Eval mean: 219.34, Eval std: 37.08
+2023-05-31 08:32:00: [INFO]: Seed: 3407, Step: 2460000, Eval mean: 250.52, Eval std: 18.13
+2023-05-31 08:32:01: [INFO]: Seed: 42, Step: 2460000, Eval mean: 263.91, Eval std: 23.74
+2023-05-31 08:32:01: [INFO]: Seed: 42, Save best model at eval mean 263.9149 and step 2460000
+2023-05-31 08:32:02: [INFO]: Seed: 1, Step: 2460000, Eval mean: 153.61, Eval std: 59.56
+2023-05-31 08:32:02: [INFO]: Seed: 1, Save best model at eval mean 153.6115 and step 2460000
+2023-05-31 08:32:03: [INFO]: Seed: 2, Step: 2460000, Eval mean: 154.08, Eval std: 94.01
+2023-05-31 08:32:09: [INFO]: Seed: 0, Step: 2460000, Eval mean: 173.20, Eval std: 84.56
+2023-05-31 08:32:30: [INFO]: Seed: 3407, Step: 2480000, Eval mean: 239.41, Eval std: 11.85
+2023-05-31 08:32:30: [INFO]: Seed: 1, Step: 2480000, Eval mean: 87.49, Eval std: 125.41
+2023-05-31 08:32:31: [INFO]: Seed: 42, Step: 2480000, Eval mean: 246.74, Eval std: 63.82
+2023-05-31 08:32:32: [INFO]: Seed: 2, Step: 2480000, Eval mean: 148.42, Eval std: 97.94
+2023-05-31 08:32:36: [INFO]: Seed: 0, Step: 2480000, Eval mean: 133.37, Eval std: 107.83
+2023-05-31 08:32:57: [INFO]: Seed: 1, Step: 2500000, Eval mean: 97.10, Eval std: 112.80
+2023-05-31 08:32:58: [INFO]: Seed: 3407, Step: 2500000, Eval mean: 254.63, Eval std: 18.86
+2023-05-31 08:32:58: [INFO]: Seed: 2, Step: 2500000, Eval mean: 117.86, Eval std: 153.54
+2023-05-31 08:33:00: [INFO]: Seed: 42, Step: 2500000, Eval mean: 253.23, Eval std: 29.75
+2023-05-31 08:33:06: [INFO]: Seed: 0, Step: 2500000, Eval mean: 193.12, Eval std: 79.11
+2023-05-31 08:33:24: [INFO]: Seed: 1, Step: 2520000, Eval mean: 84.90, Eval std: 111.08
+2023-05-31 08:33:25: [INFO]: Seed: 3407, Step: 2520000, Eval mean: 232.59, Eval std: 69.94
+2023-05-31 08:33:27: [INFO]: Seed: 42, Step: 2520000, Eval mean: 270.22, Eval std: 23.14
+2023-05-31 08:33:27: [INFO]: Seed: 42, Save best model at eval mean 270.2204 and step 2520000
+2023-05-31 08:33:28: [INFO]: Seed: 2, Step: 2520000, Eval mean: 151.09, Eval std: 107.39
+2023-05-31 08:33:34: [INFO]: Seed: 0, Step: 2520000, Eval mean: 204.23, Eval std: 20.65
+2023-05-31 08:33:55: [INFO]: Seed: 1, Step: 2540000, Eval mean: 43.24, Eval std: 133.26
+2023-05-31 08:33:56: [INFO]: Seed: 42, Step: 2540000, Eval mean: 231.54, Eval std: 96.69
+2023-05-31 08:33:56: [INFO]: Seed: 3407, Step: 2540000, Eval mean: 255.41, Eval std: 11.42
+2023-05-31 08:34:00: [INFO]: Seed: 2, Step: 2540000, Eval mean: 184.74, Eval std: 82.22
+2023-05-31 08:34:04: [INFO]: Seed: 0, Step: 2540000, Eval mean: 202.76, Eval std: 69.49
+2023-05-31 08:34:24: [INFO]: Seed: 1, Step: 2560000, Eval mean: 45.60, Eval std: 134.41
+2023-05-31 08:34:25: [INFO]: Seed: 42, Step: 2560000, Eval mean: 214.28, Eval std: 103.26
+2023-05-31 08:34:25: [INFO]: Seed: 3407, Step: 2560000, Eval mean: 253.63, Eval std: 20.99
+2023-05-31 08:34:27: [INFO]: Seed: 2, Step: 2560000, Eval mean: 207.19, Eval std: 60.39
+2023-05-31 08:34:33: [INFO]: Seed: 0, Step: 2560000, Eval mean: 169.23, Eval std: 102.45
+2023-05-31 08:34:53: [INFO]: Seed: 2, Step: 2580000, Eval mean: 196.87, Eval std: 69.96
+2023-05-31 08:34:54: [INFO]: Seed: 1, Step: 2580000, Eval mean: 85.20, Eval std: 120.26
+2023-05-31 08:34:54: [INFO]: Seed: 3407, Step: 2580000, Eval mean: 252.55, Eval std: 29.29
+2023-05-31 08:34:54: [INFO]: Seed: 42, Step: 2580000, Eval mean: 229.88, Eval std: 64.08
+2023-05-31 08:35:04: [INFO]: Seed: 0, Step: 2580000, Eval mean: 161.49, Eval std: 109.41
+2023-05-31 08:35:23: [INFO]: Seed: 1, Step: 2600000, Eval mean: 103.01, Eval std: 130.71
+2023-05-31 08:35:23: [INFO]: Seed: 3407, Step: 2600000, Eval mean: 260.67, Eval std: 14.09
+2023-05-31 08:35:25: [INFO]: Seed: 42, Step: 2600000, Eval mean: 213.15, Eval std: 85.86
+2023-05-31 08:35:26: [INFO]: Seed: 2, Step: 2600000, Eval mean: 164.63, Eval std: 96.00
+2023-05-31 08:35:31: [INFO]: Seed: 0, Step: 2600000, Eval mean: 212.16, Eval std: 88.06
+2023-05-31 08:35:50: [INFO]: Seed: 2, Step: 2620000, Eval mean: 118.05, Eval std: 102.98
+2023-05-31 08:35:51: [INFO]: Seed: 42, Step: 2620000, Eval mean: 195.76, Eval std: 111.60
+2023-05-31 08:35:52: [INFO]: Seed: 3407, Step: 2620000, Eval mean: 237.03, Eval std: 70.20
+2023-05-31 08:35:53: [INFO]: Seed: 1, Step: 2620000, Eval mean: 83.36, Eval std: 138.54
+2023-05-31 08:36:03: [INFO]: Seed: 0, Step: 2620000, Eval mean: 119.74, Eval std: 123.76
+2023-05-31 08:36:25: [INFO]: Seed: 42, Step: 2640000, Eval mean: 190.00, Eval std: 114.26
+2023-05-31 08:36:25: [INFO]: Seed: 1, Step: 2640000, Eval mean: 119.88, Eval std: 116.81
+2023-05-31 08:36:26: [INFO]: Seed: 3407, Step: 2640000, Eval mean: 250.74, Eval std: 20.49
+2023-05-31 08:36:27: [INFO]: Seed: 2, Step: 2640000, Eval mean: 137.45, Eval std: 98.71
+2023-05-31 08:36:36: [INFO]: Seed: 0, Step: 2640000, Eval mean: 181.53, Eval std: 75.31
+2023-05-31 08:36:53: [INFO]: Seed: 1, Step: 2660000, Eval mean: 46.63, Eval std: 118.97
+2023-05-31 08:36:56: [INFO]: Seed: 42, Step: 2660000, Eval mean: 259.44, Eval std: 14.35
+2023-05-31 08:36:56: [INFO]: Seed: 3407, Step: 2660000, Eval mean: 241.04, Eval std: 16.13
+2023-05-31 08:36:59: [INFO]: Seed: 2, Step: 2660000, Eval mean: 163.84, Eval std: 94.48
+2023-05-31 08:37:04: [INFO]: Seed: 0, Step: 2660000, Eval mean: 189.24, Eval std: 66.11
+2023-05-31 08:37:24: [INFO]: Seed: 1, Step: 2680000, Eval mean: 90.81, Eval std: 120.06
+2023-05-31 08:37:25: [INFO]: Seed: 42, Step: 2680000, Eval mean: 220.23, Eval std: 93.28
+2023-05-31 08:37:26: [INFO]: Seed: 3407, Step: 2680000, Eval mean: 242.46, Eval std: 23.57
+2023-05-31 08:37:26: [INFO]: Seed: 2, Step: 2680000, Eval mean: 195.15, Eval std: 58.69
+2023-05-31 08:37:34: [INFO]: Seed: 0, Step: 2680000, Eval mean: 202.47, Eval std: 103.69
+2023-05-31 08:37:53: [INFO]: Seed: 42, Step: 2700000, Eval mean: 186.05, Eval std: 102.08
+2023-05-31 08:37:53: [INFO]: Seed: 1, Step: 2700000, Eval mean: 67.78, Eval std: 104.04
+2023-05-31 08:37:55: [INFO]: Seed: 3407, Step: 2700000, Eval mean: 193.04, Eval std: 81.71
+2023-05-31 08:37:56: [INFO]: Seed: 2, Step: 2700000, Eval mean: 193.79, Eval std: 58.37
+2023-05-31 08:38:03: [INFO]: Seed: 0, Step: 2700000, Eval mean: 159.78, Eval std: 90.09
+2023-05-31 08:38:25: [INFO]: Seed: 3407, Step: 2720000, Eval mean: 256.05, Eval std: 11.16
+2023-05-31 08:38:25: [INFO]: Seed: 42, Step: 2720000, Eval mean: 254.80, Eval std: 66.11
+2023-05-31 08:38:25: [INFO]: Seed: 1, Step: 2720000, Eval mean: 42.82, Eval std: 113.16
+2023-05-31 08:38:28: [INFO]: Seed: 2, Step: 2720000, Eval mean: 190.80, Eval std: 57.14
+2023-05-31 08:38:34: [INFO]: Seed: 0, Step: 2720000, Eval mean: 190.21, Eval std: 74.97
+2023-05-31 08:38:55: [INFO]: Seed: 3407, Step: 2740000, Eval mean: 252.17, Eval std: 15.39
+2023-05-31 08:38:55: [INFO]: Seed: 1, Step: 2740000, Eval mean: 159.60, Eval std: 86.19
+2023-05-31 08:38:55: [INFO]: Seed: 1, Save best model at eval mean 159.5984 and step 2740000
+2023-05-31 08:38:56: [INFO]: Seed: 42, Step: 2740000, Eval mean: 146.40, Eval std: 102.05
+2023-05-31 08:38:57: [INFO]: Seed: 2, Step: 2740000, Eval mean: 220.79, Eval std: 21.40
+2023-05-31 08:39:03: [INFO]: Seed: 0, Step: 2740000, Eval mean: 193.21, Eval std: 81.66
+2023-05-31 08:39:22: [INFO]: Seed: 1, Step: 2760000, Eval mean: 90.75, Eval std: 110.21
+2023-05-31 08:39:24: [INFO]: Seed: 42, Step: 2760000, Eval mean: 206.87, Eval std: 99.95
+2023-05-31 08:39:25: [INFO]: Seed: 3407, Step: 2760000, Eval mean: 247.08, Eval std: 21.81
+2023-05-31 08:39:25: [INFO]: Seed: 2, Step: 2760000, Eval mean: 165.98, Eval std: 62.49
+2023-05-31 08:39:30: [INFO]: Seed: 0, Step: 2760000, Eval mean: 205.78, Eval std: 83.39
+2023-05-31 08:39:50: [INFO]: Seed: 3407, Step: 2780000, Eval mean: 233.89, Eval std: 65.70
+2023-05-31 08:39:51: [INFO]: Seed: 1, Step: 2780000, Eval mean: 78.20, Eval std: 106.74
+2023-05-31 08:39:51: [INFO]: Seed: 42, Step: 2780000, Eval mean: 241.86, Eval std: 64.23
+2023-05-31 08:39:54: [INFO]: Seed: 2, Step: 2780000, Eval mean: 208.90, Eval std: 61.81
+2023-05-31 08:39:59: [INFO]: Seed: 0, Step: 2780000, Eval mean: 202.26, Eval std: 72.58
+2023-05-31 08:40:19: [INFO]: Seed: 1, Step: 2800000, Eval mean: 123.27, Eval std: 112.40
+2023-05-31 08:40:20: [INFO]: Seed: 3407, Step: 2800000, Eval mean: 257.60, Eval std: 20.21
+2023-05-31 08:40:22: [INFO]: Seed: 2, Step: 2800000, Eval mean: 139.35, Eval std: 90.68
+2023-05-31 08:40:23: [INFO]: Seed: 42, Step: 2800000, Eval mean: 231.04, Eval std: 70.08
+2023-05-31 08:40:27: [INFO]: Seed: 0, Step: 2800000, Eval mean: 150.43, Eval std: 97.60
+2023-05-31 08:40:50: [INFO]: Seed: 42, Step: 2820000, Eval mean: 200.20, Eval std: 106.63
+2023-05-31 08:40:51: [INFO]: Seed: 3407, Step: 2820000, Eval mean: 250.69, Eval std: 13.95
+2023-05-31 08:40:51: [INFO]: Seed: 1, Step: 2820000, Eval mean: 159.61, Eval std: 93.24
+2023-05-31 08:40:51: [INFO]: Seed: 1, Save best model at eval mean 159.6117 and step 2820000
+2023-05-31 08:40:52: [INFO]: Seed: 2, Step: 2820000, Eval mean: 149.22, Eval std: 105.51
+2023-05-31 08:40:58: [INFO]: Seed: 0, Step: 2820000, Eval mean: 184.18, Eval std: 106.61
+2023-05-31 08:41:18: [INFO]: Seed: 1, Step: 2840000, Eval mean: 46.70, Eval std: 92.33
+2023-05-31 08:41:19: [INFO]: Seed: 3407, Step: 2840000, Eval mean: 229.91, Eval std: 60.52
+2023-05-31 08:41:19: [INFO]: Seed: 42, Step: 2840000, Eval mean: 224.23, Eval std: 82.95
+2023-05-31 08:41:19: [INFO]: Seed: 2, Step: 2840000, Eval mean: 149.69, Eval std: 80.94
+2023-05-31 08:41:28: [INFO]: Seed: 0, Step: 2840000, Eval mean: 189.94, Eval std: 80.69
+2023-05-31 08:41:47: [INFO]: Seed: 2, Step: 2860000, Eval mean: 117.07, Eval std: 96.08
+2023-05-31 08:41:48: [INFO]: Seed: 42, Step: 2860000, Eval mean: 243.80, Eval std: 64.42
+2023-05-31 08:41:48: [INFO]: Seed: 3407, Step: 2860000, Eval mean: 205.20, Eval std: 77.76
+2023-05-31 08:41:49: [INFO]: Seed: 1, Step: 2860000, Eval mean: 116.63, Eval std: 105.38
+2023-05-31 08:41:58: [INFO]: Seed: 0, Step: 2860000, Eval mean: 172.35, Eval std: 88.73
+2023-05-31 08:42:16: [INFO]: Seed: 1, Step: 2880000, Eval mean: 179.33, Eval std: 65.53
+2023-05-31 08:42:16: [INFO]: Seed: 1, Save best model at eval mean 179.3268 and step 2880000
+2023-05-31 08:42:19: [INFO]: Seed: 3407, Step: 2880000, Eval mean: 255.19, Eval std: 15.96
+2023-05-31 08:42:19: [INFO]: Seed: 2, Step: 2880000, Eval mean: 122.08, Eval std: 100.30
+2023-05-31 08:42:21: [INFO]: Seed: 42, Step: 2880000, Eval mean: 222.01, Eval std: 92.20
+2023-05-31 08:42:27: [INFO]: Seed: 0, Step: 2880000, Eval mean: 144.54, Eval std: 97.94
+2023-05-31 08:42:48: [INFO]: Seed: 1, Step: 2900000, Eval mean: 72.07, Eval std: 110.04
+2023-05-31 08:42:52: [INFO]: Seed: 3407, Step: 2900000, Eval mean: 226.50, Eval std: 75.44
+2023-05-31 08:42:52: [INFO]: Seed: 42, Step: 2900000, Eval mean: 215.94, Eval std: 92.17
+2023-05-31 08:42:53: [INFO]: Seed: 2, Step: 2900000, Eval mean: 198.76, Eval std: 92.52
+2023-05-31 08:42:58: [INFO]: Seed: 0, Step: 2900000, Eval mean: 149.78, Eval std: 88.23
+2023-05-31 08:43:17: [INFO]: Seed: 2, Step: 2920000, Eval mean: 163.69, Eval std: 85.99
+2023-05-31 08:43:18: [INFO]: Seed: 42, Step: 2920000, Eval mean: 242.03, Eval std: 58.81
+2023-05-31 08:43:19: [INFO]: Seed: 1, Step: 2920000, Eval mean: 144.09, Eval std: 96.99
+2023-05-31 08:43:20: [INFO]: Seed: 3407, Step: 2920000, Eval mean: 244.58, Eval std: 23.65
+2023-05-31 08:43:28: [INFO]: Seed: 0, Step: 2920000, Eval mean: 162.02, Eval std: 109.73
+2023-05-31 08:43:47: [INFO]: Seed: 42, Step: 2940000, Eval mean: 169.59, Eval std: 116.83
+2023-05-31 08:43:48: [INFO]: Seed: 2, Step: 2940000, Eval mean: 103.32, Eval std: 112.49
+2023-05-31 08:43:49: [INFO]: Seed: 3407, Step: 2940000, Eval mean: 245.59, Eval std: 28.10
+2023-05-31 08:43:50: [INFO]: Seed: 1, Step: 2940000, Eval mean: 97.63, Eval std: 138.36
+2023-05-31 08:43:58: [INFO]: Seed: 0, Step: 2940000, Eval mean: 213.72, Eval std: 79.94
+2023-05-31 08:44:17: [INFO]: Seed: 1, Step: 2960000, Eval mean: 63.75, Eval std: 106.93
+2023-05-31 08:44:18: [INFO]: Seed: 3407, Step: 2960000, Eval mean: 261.00, Eval std: 15.67
+2023-05-31 08:44:19: [INFO]: Seed: 2, Step: 2960000, Eval mean: 207.03, Eval std: 57.86
+2023-05-31 08:44:20: [INFO]: Seed: 42, Step: 2960000, Eval mean: 174.20, Eval std: 99.68
+2023-05-31 08:44:28: [INFO]: Seed: 0, Step: 2960000, Eval mean: 229.48, Eval std: 26.11
+2023-05-31 08:44:48: [INFO]: Seed: 42, Step: 2980000, Eval mean: 195.33, Eval std: 97.90
+2023-05-31 08:44:48: [INFO]: Seed: 1, Step: 2980000, Eval mean: 102.38, Eval std: 139.74
+2023-05-31 08:44:49: [INFO]: Seed: 3407, Step: 2980000, Eval mean: 217.23, Eval std: 67.96
+2023-05-31 08:44:50: [INFO]: Seed: 2, Step: 2980000, Eval mean: 80.39, Eval std: 179.03
+2023-05-31 08:44:56: [INFO]: Seed: 0, Step: 2980000, Eval mean: 200.74, Eval std: 75.64
+2023-05-31 08:45:18: [INFO]: Seed: 1, Step: 3000000, Eval mean: 164.05, Eval std: 79.64
+2023-05-31 08:45:19: [INFO]: Seed: 3407, Step: 3000000, Eval mean: 249.66, Eval std: 17.35
+2023-05-31 08:45:20: [INFO]: Seed: 42, Step: 3000000, Eval mean: 215.84, Eval std: 95.33
+2023-05-31 08:45:20: [INFO]: Seed: 2, Step: 3000000, Eval mean: 160.00, Eval std: 91.05
+2023-05-31 08:45:28: [INFO]: Seed: 0, Step: 3000000, Eval mean: 200.68, Eval std: 73.10
+2023-05-31 08:45:45: [INFO]: Finish training seed 3407 with everage eval mean: 227.71414031982422
+2023-05-31 08:45:47: [INFO]: Finish training seed 2 with everage eval mean: 242.22150115966798
+2023-05-31 08:45:47: [INFO]: Finish training seed 1 with everage eval mean: 133.1126495361328
+2023-05-31 08:45:47: [WARNING]: /home/chenshuo/anaconda3/envs/drl_hw2/lib/python3.10/site-packages/moviepy/video/io/ffmpeg_reader.py:123: UserWarning: Warning: in file best_videos_seed_42/eval-episode-9.mp4, 720000 bytes wanted but 0 bytes read,at frame 237/238, at time 4.74/4.74 sec. Using the last valid frame instead.
+  warnings.warn("Warning: in file %s, "%(self.filename)+
+
+2023-05-31 08:45:47: [INFO]: Finish training seed 42 with everage eval mean: 224.80922241210936
+2023-05-31 08:45:54: [INFO]: Finish training seed 0 with everage eval mean: 124.46962814331054

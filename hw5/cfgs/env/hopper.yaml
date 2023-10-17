@@ -1,0 +1,3 @@
+env_name: Hopper
+rtg_target: 3600
+max_timestep: 1000

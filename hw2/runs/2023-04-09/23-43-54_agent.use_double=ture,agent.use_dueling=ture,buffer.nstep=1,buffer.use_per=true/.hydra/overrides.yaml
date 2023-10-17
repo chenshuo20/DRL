@@ -1,0 +1,4 @@
+- buffer.use_per=true
+- buffer.nstep=1
+- agent.use_double=ture
+- agent.use_dueling=ture

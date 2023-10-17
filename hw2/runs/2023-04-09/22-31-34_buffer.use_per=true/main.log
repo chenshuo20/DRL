@@ -1,0 +1,28 @@
+[2023-04-09 22:31:36,139][__main__][INFO] - Training for 50000 timesteps with NormalQNetwork and PrioritizedReplayBuffer
+[2023-04-09 22:31:47,868][core][INFO] - Step: 2000, Eval mean: 110.6, Eval std: 9.58331884056875
+[2023-04-09 22:32:00,500][core][INFO] - Step: 4000, Eval mean: 148.8, Eval std: 8.388086790204307
+[2023-04-09 22:32:13,293][core][INFO] - Step: 6000, Eval mean: 178.8, Eval std: 14.232357499725756
+[2023-04-09 22:32:26,337][core][INFO] - Step: 8000, Eval mean: 147.6, Eval std: 7.657675887630659
+[2023-04-09 22:32:39,514][core][INFO] - Step: 10000, Eval mean: 205.0, Eval std: 53.31603886261619
+[2023-04-09 22:32:52,688][core][INFO] - Step: 12000, Eval mean: 194.3, Eval std: 4.1
+[2023-04-09 22:33:05,841][core][INFO] - Step: 14000, Eval mean: 132.1, Eval std: 25.173200034957812
+[2023-04-09 22:33:19,172][core][INFO] - Step: 16000, Eval mean: 157.1, Eval std: 4.036087214122113
+[2023-04-09 22:33:33,542][core][INFO] - Step: 18000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:33:47,943][core][INFO] - Step: 20000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:34:02,380][core][INFO] - Step: 22000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:34:14,452][core][INFO] - Step: 24000, Eval mean: 166.5, Eval std: 4.104875150354759
+[2023-04-09 22:34:27,052][core][INFO] - Step: 26000, Eval mean: 177.2, Eval std: 5.723635208501674
+[2023-04-09 22:34:40,395][core][INFO] - Step: 28000, Eval mean: 99.4, Eval std: 4.608687448721165
+[2023-04-09 22:34:53,928][core][INFO] - Step: 30000, Eval mean: 136.0, Eval std: 4.219004621945797
+[2023-04-09 22:35:07,273][core][INFO] - Step: 32000, Eval mean: 83.2, Eval std: 4.833218389437829
+[2023-04-09 22:35:21,776][core][INFO] - Step: 34000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:35:36,209][core][INFO] - Step: 36000, Eval mean: 433.4, Eval std: 58.18109658643433
+[2023-04-09 22:35:50,872][core][INFO] - Step: 38000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:36:05,745][core][INFO] - Step: 40000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:36:20,500][core][INFO] - Step: 42000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:36:35,211][core][INFO] - Step: 44000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:36:50,145][core][INFO] - Step: 46000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:37:05,049][core][INFO] - Step: 48000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:37:20,092][core][INFO] - Step: 50000, Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:37:44,127][core][INFO] - Final Eval mean: 500.0, Eval std: 0.0
+[2023-04-09 22:37:52,736][__main__][INFO] - Finish training with eval mean: 500.0

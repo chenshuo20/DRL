@@ -1,0 +1,48 @@
+defaults:
+  - _self_
+  - env: hopper
+
+seeds: 
+- 0
+- 42
+- 3407 # https://arxiv.org/abs/2109.08203
+
+tag: null
+vec_envs: 1
+
+train:
+  lr: 1e-4
+  weight_decay: 1e-4
+  vec_envs: ${vec_envs}
+  env_name: ${env.env_name}
+  timesteps: 20_000
+  batch_size: 64
+  plot_interval: 200
+  eval_interval: 200
+  eval_episodes: 10
+  warmup_steps: 10_000
+  rtg_target: ${env.rtg_target}
+
+buffer:
+  _target_: buffer.SequenceBuffer
+  env_name: ${env.env_name}
+  dataset: medium
+  sample_type: traj_length
+  pos_encoding: absolute
+  context_len: ${model.context_len}
+  
+model:
+  _target_: model.DecisionTransformer
+  n_heads: 1
+  n_blocks: 3
+  drop_p: 0.1
+  hidden_dim: 128
+  context_len: 20
+  reward_scale: 1000
+  max_timestep: ${env.max_timestep}
+
+hydra:
+  job:
+    chdir: true
+  run:
+    dir: ./runs/${now:%Y-%m-%d}/${now:%H-%M-%S}_${hydra.job.override_dirname}

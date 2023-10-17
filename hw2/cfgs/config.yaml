@@ -1,0 +1,45 @@
+seed: 42
+env_name: CartPole-v1
+
+train:
+  nstep: ${buffer.nstep}
+  timesteps: 50_000
+  batch_size: 128 
+  test_every: 2500
+  eps_max: 1
+  eps_min: 0.05
+  eps_steps: 12_500
+  start_steps: 0
+  plot_interval: 2000
+  eval_interval: 2000
+  eval_episodes: 10
+
+agent:
+  gamma: 0.99
+  lr: 0.002
+  tau: 0.1
+  nstep: ${buffer.nstep}
+  target_update_interval: 3
+  hidden_size: 64
+  activation: 
+    _target_: torch.nn.ELU
+    # you can define other parameters of the __init__ function (if any) for the object here
+  use_dueling: False
+  use_double: False
+
+buffer:
+  capacity: 60_000
+  use_per: False
+  nstep: 1
+  gamma: ${agent.gamma}
+  per_alpha: 0.7
+  per_beta: 0.4
+  per_eps: 0.01
+
+hydra:
+  job:
+    chdir: true
+  run:
+    dir: ./runs/${now:%Y-%m-%d}/${now:%H-%M-%S}_${hydra.job.override_dirname}
+  sweep:
+    dir: ./sweeps/${now:%Y-%m-%d}/${now:%H-%M-%S}_${hydra.job.override_dirname}
